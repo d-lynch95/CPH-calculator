@@ -4,9 +4,12 @@ body {
 
 @media only screen and (max-width: 483px) {
 
+    
+
     .days{
         display: flex;
         flex-direction: row;
+        padding-left: 15vw;
     }
 
     #hours_worked {
@@ -16,8 +19,30 @@ body {
 
 
     .hours_box{
-        width: 50px;
+        width: 30vw;
+        height: 4vh;
     }
     
+
+    #comms{
+        display:flex;
+        direction: row;
+    }
+
+    #comms {
+        height:6vh;
+        padding-left: 10px;
+    }
+
+    #number{
+        padding-left:10px;
+    }
+
+    #visa-tax {
+        display: flex;
+        direction: row;
+        margin-top:20px;
+        padding-left: 10px;
+    }
 
 }
