@@ -1,2 +1,23 @@
 body {
+    background-color: #ff6700;
   }
+
+@media only screen and (max-width: 483px) {
+
+    .days{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hours_worked {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+    .hours_box{
+        width: 50px;
+    }
+    
+
+}
