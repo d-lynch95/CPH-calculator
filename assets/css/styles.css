@@ -11,6 +11,10 @@ body {
         flex-direction: row;
     }
 
+    #logo {
+        width: 30vw;
+    }
+
     .days{
         display: flex;
         flex-direction: row;
