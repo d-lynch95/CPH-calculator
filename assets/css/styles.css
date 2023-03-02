@@ -26,12 +26,10 @@ body {
         flex-direction: column;
     }
 
-
     .hours_box{
         width: 30vw;
         height: 4vh;
     }
-    
 
     #comms{
         display:flex;
@@ -39,12 +37,15 @@ body {
     }
 
     #comms {
+        display: flex;
+        text-align:justify;
+        justify-content: center;
         height:6vh;
-        padding-left: 10px;
     }
 
     #commission{
         padding-right: 20px;
+        
     }
 
     #number{
@@ -54,8 +55,19 @@ body {
     #visa-tax {
         display: flex;
         direction: row;
+        justify-content: center;
         margin-top:20px;
         padding-left: 10px;
+    }
+
+    #pay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border: black solid;
+        color:black;
+
     }
 
 }
