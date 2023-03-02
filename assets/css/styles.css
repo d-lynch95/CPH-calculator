@@ -1,10 +1,15 @@
 body {
-    background-color: #ff6700;
-  }
+    background-color: #f58321;
+    color:white;
+}
+
 
 @media only screen and (max-width: 483px) {
 
-    
+    #heading{
+        display: flex;
+        flex-direction: row;
+    }
 
     .days{
         display: flex;
@@ -32,6 +37,10 @@ body {
     #comms {
         height:6vh;
         padding-left: 10px;
+    }
+
+    #commission{
+        padding-right: 20px;
     }
 
     #number{
