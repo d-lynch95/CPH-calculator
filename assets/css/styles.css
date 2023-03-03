@@ -264,6 +264,7 @@ h1 {
     #desktop-container {
         display: flex;
         flex-direction: row;
+        margin-left: 10vw;
     }
 
     #desktop-flex {
