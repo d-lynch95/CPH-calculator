@@ -1,10 +1,23 @@
 body {
     background-color: #f58321;
     color:white;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Lilita One', cursive;
+}
 
 @media only screen and (max-width: 483px) {
+
+    #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        font-size: xx-large;
+    }
+    }
 
     #heading{
         display: flex;
@@ -13,6 +26,11 @@ body {
 
     #logo {
         width: 30vw;
+    }
+
+    #instruction {
+        text-decoration: underline;
+        margin-left: 5vw;
     }
 
     .days{
