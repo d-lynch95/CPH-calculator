@@ -15,7 +15,7 @@ h1 {
         justify-content: center;
         align-items: center;
         padding-left: 30px;
-        font-size: 6vh;
+        font-size: 4vh;
     }
 
     #heading{
@@ -98,7 +98,86 @@ h1 {
         background-color: white;
         border: black solid;
         color:black;
+        font-family: 'Golos Text', sans-serif;
+    }
 
+    #yourpay{
+        margin-left:4vw;
+    }
+
+    #pay-break {
+        margin-left: 25vw;
+        margin-bottom: 5vh;
+    }
+
+    #payscale {
+        margin-left: 5vw;
+    }
+}
+
+
+
+@media only screen and (min-width:484px) and (max-width: 768px) {
+    #heading{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10vw;
+        font-size: 7vh;
+    }
+
+    #sub-title {
+        text-decoration: underline;
+        margin-left: 5vw;
+        padding-left: 2vw;
+        font-size: 4vh;
+    }
+
+    #instruction-box{
+        font-size:2.5vh;
+        margin-left:2vw;
+    }
+
+    #hours-div {
+        display:flex;
+        flex-direction: row;
+    }
+
+    #hours_worked {
+        display:flex;
+        flex-direction: column;
+        margin-left: 15vw;
+        font-size:3vh;
+    }
+
+    #hours-container{
+        display:flex;
+        flex-direction: column;
+        padding-left: 10vw;
+    }
+
+    .hours_box{
+        width: 20vw;
+        height:5vh;
+        margin-bottom: 4.5vh;
+        margin-top: 0.5vh;
+    }
+
+    #comms {
+        display: flex;
+        /* text-align:justify; */
+        justify-content: center;
+    }
+
+    #commission {
+        font-size: 3.5vh;
+        padding-right: 5vw;
+        padding-bottom:1vh;
     }
 
 }
