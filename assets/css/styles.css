@@ -14,9 +14,8 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 40px;
-        font-size: xx-large;
-    }
+        padding-left: 30px;
+        font-size: 6vh;
     }
 
     #heading{
@@ -28,15 +27,26 @@ h1 {
         width: 30vw;
     }
 
-    #instruction {
+    #sub-title {
         text-decoration: underline;
         margin-left: 5vw;
+        padding-left: 2vw;
     }
+
+    #instruction-box{
+        padding-left: 3vw;
+    }
+
 
     .days{
         display: flex;
         flex-direction: row;
         padding-left: 15vw;
+    }
+
+    #hours-div {
+        display:flex;
+        flex-direction: row;
     }
 
     #hours_worked {
@@ -46,7 +56,10 @@ h1 {
 
     .hours_box{
         width: 30vw;
-        height: 4vh;
+        height: 40px;
+        margin-left:20px;
+        margin-bottom:8px;
+        
     }
 
     #comms{

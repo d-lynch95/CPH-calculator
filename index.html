@@ -18,46 +18,50 @@
         <h1 id="title">Pay Calculator</h1>
     </header>
 
-    <div>
-        <h2 id="instruction">Instructions for Use</h2>
+
+    <h2 id="sub-title">Instructions for Use</h2>
+    <div id="instruction-box">
         <p>1. Insert your hours worked into the form</p>
         <p>2. Insert your commission earned for the week</p>
         <p>3. Select whether you are on a working holiday visa</p>
         <p>4. View your pay breakdown at the bottom of the page</p>
     </div>
 
-    <h2>Hours worked</h2>
-    <div id="hours_worked">
-        <div class="days">
-            <p>Monday &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
+    <h2 id="sub-title">Hours worked</h2>
+    <div id="hours-div">
+        <div id="hours_worked">
+            <div class="days">
+                <p>Monday</p>
+            </div>
+            <div class="days">
+                <p>Tuesday</p>
+            </div>
+            <div class="days">
+                <p>Wednesday</p>
+            </div>
+            <div class="days">
+                <p>Thursday</p>
+            </div>
+            <div class="days">
+                <p>Friday</p>
+            </div>
+            <div class="days">
+                <p>Saturday</p>
+            </div>
+            <div class="days">
+                <p>Sunday</p>
+            </div>
         </div>
-        <div class="days">
-            <p>Tuesday &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
-        </div>
-        <div class="days">
-            <p>Wednesday</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
-        </div>
-        <div class="days">
-            <p>Thursday &nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
-        </div>
-        <div class="days">
-            <p>Friday &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
-        </div>
-        <div class="days">
-            <p>Saturday&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
-        </div>
-        <div class="days">
-            <p>Sunday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <input type="number" max="8" min="0" step="0.5" class="hours_box">
+        <div id="hours-container">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="monday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="tuesday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="wednesday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="thursday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="friday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="saturday-hours">
+            <input type="number" max="8" min="0" step="0.5" class="hours_box" id="sunday-hours">
         </div>
     </div>
-
 
     <div id="comms">
         <h3 id="commission">Commission made</h3>
