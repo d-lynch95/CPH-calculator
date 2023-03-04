@@ -2,6 +2,7 @@ body {
     background-color: #f58321;
     color:white;
     font-family: 'Open Sans', sans-serif;
+    border: black solid 2px;
 }
 
 h1 {
@@ -63,6 +64,7 @@ h1 {
         margin-left:20px;
         margin-bottom:8px;
         text-align:center;
+        font-size: large;
     }
 
     /* Commission section */
@@ -85,7 +87,7 @@ h1 {
     #number{
         padding-left:10px;
         text-align:center;
-        
+        font-size: large;
     }
 
     /* Working holiday visa section */
@@ -177,6 +179,7 @@ h1 {
         margin-bottom: 4.5vh;
         margin-top: 0.5vh;
         text-align:center;
+        font-size: large;
     }
 
     /* commission section */
@@ -195,6 +198,7 @@ h1 {
         height: 8vh;
         width: 30vw;
         text-align:center;
+        font-size: large;
     }
 
     /* working holiday visa section */
@@ -303,6 +307,7 @@ h1 {
         margin-left:4vw;
         margin-bottom: 4vh;
         text-align:center;
+        font-size: large;
     }
 
     #comms {
@@ -321,6 +326,7 @@ h1 {
         height: 80%;
         width: 22vw;
         text-align:center;
+        font-size: large;
     }
 
     #visa-tax{
