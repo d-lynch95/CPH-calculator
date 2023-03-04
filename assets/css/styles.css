@@ -84,6 +84,8 @@ h1 {
 
     #number{
         padding-left:10px;
+        text-align:center;
+        
     }
 
     /* Working holiday visa section */
@@ -192,6 +194,7 @@ h1 {
     #number{
         height: 8vh;
         width: 30vw;
+        text-align:center;
     }
 
     /* working holiday visa section */
@@ -317,6 +320,7 @@ h1 {
         margin-left: 2vw;
         height: 80%;
         width: 22vw;
+        text-align:center;
     }
 
     #visa-tax{
