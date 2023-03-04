@@ -11,9 +11,36 @@ function mondayPay() {
     return result;
 }
 
-
 function tuesdayPay() {
     let result = tuesday * weekday_pay;
     return result;
 }
+
+function wednesdayPay() {
+    let result = wednesday * weekday_pay;
+    return result;
+}
+
+function thursdayPay() {
+    let result = thursday * weekday_pay;
+    return result;
+}
+
+function fridayPay() {
+    let result = friday * weekday_pay;
+    return result;
+}
+
+function satudayPay() {
+    let result = saturday * saturday_pay;
+    return result;
+}
+
+function sundayPay() {
+    let result = sunday * sunday_pay;
+    return result;
+}
+
+
+
 
