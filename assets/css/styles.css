@@ -368,6 +368,7 @@ h1 {
 
     #pay-break {
         margin-bottom: 5vh;
+        padding-left: 10vw;
     }
 
     #payscale {
@@ -378,9 +379,24 @@ h1 {
         text-align:center;
     }
 
-
     #sun-pay {
         text-decoration: underline;
+    }
+
+    #bonus-breakdown {
+        padding-left: 10vw;
+        padding-top: 3vh;
+    }
+
+    #total-bonus {
+        padding-left: 10vw;
+        padding-top: 3vh;
+        
+    }
+
+    #total-pay {
+        text-align: center;
+        padding-top: 3vh;
     }
 
     
