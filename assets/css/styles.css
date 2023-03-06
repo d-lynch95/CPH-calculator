@@ -110,6 +110,10 @@ h1 {
         font-family: 'Golos Text', sans-serif;
     }
 
+    #breakdown{
+        font-size: small;
+    }
+
     #yourpay{
         margin-left:4vw;
     }
@@ -121,6 +125,26 @@ h1 {
 
     #payscale {
         margin-left: 5vw;
+    }
+
+    #daily {
+        padding-left: 15vw;
+    }
+
+    #bonus-breakdown {
+        padding-top: 3vh;
+        padding-left: 3vw;
+    }
+
+    #total-bonus {
+        padding-top: 3vh;
+        padding-left: 3vw;
+    }
+
+    #total-pay {
+        padding-left: 15vw;
+        padding-top: 5vh;
+
     }
 }
 
