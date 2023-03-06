@@ -31,7 +31,7 @@ function fridayPay() {
     return document.getElementById("fri-pay").innerHTML = result.toFixed(2);
 }
 
-function satudayPay() {
+function saturdayPay() {
     let result = saturday.value * saturday_pay;
     return document.getElementById("sat-pay").innerHTML = result.toFixed(2);
 }
