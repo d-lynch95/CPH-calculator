@@ -47,14 +47,14 @@ let tuesday_pay = document.getElementById("tue-pay");
 let wednesday_pay = document.getElementById("wed-pay");
 let thursday_pay = document.getElementById("thur-pay");
 let friday_pay = document.getElementById("fri-pay");
-let saturday_pay = document.getElementById("sat-pay");
-let sunday_pay = document.getElementById("sun-pay");
+//let saturday_pay = document.getElementById("sat-pay");
+//let sunday_pay = document.getElementById("sun-pay");
 
 
-function totalPay() {
-    let result = monday_pay + tuesday_pay + wednesday_pay + thursday_pay + friday_pay + saturday_pay + sunday_pay;
-    return document.getElementById("totalspan").innerHTML = result.toFixed(2);
-}
+// function totalPay() {
+//     let result = monday_pay.value + tuesday_pay.value + wednesday_pay.value + thursday_pay.value + friday_pay.value;
+//     return document.getElementById("totalspan").innerHTML = result;
+// }
 
 
 
