@@ -12,33 +12,33 @@ function mondayPay() {
 }
 
 function tuesdayPay() {
-    let result = tuesday * weekday_pay;
-    return document.getElementById;
+    let result = tuesday.value * weekday_pay;
+    return document.getElementById("tue-pay").innerHTML = result;
 }
 
 function wednesdayPay() {
-    let result = wednesday * weekday_pay;
-    return result;
+    let result = wednesday.value * weekday_pay;
+    return document.getElementById("wed-pay").innerHTML = result;
 }
 
 function thursdayPay() {
-    let result = thursday * weekday_pay;
-    return result;
+    let result = thursday.value * weekday_pay;
+    return document.getElementById("thur-pay").innerHTML = result;
 }
 
 function fridayPay() {
-    let result = friday * weekday_pay;
-    return result;
+    let result = friday.value * weekday_pay;
+    return document.getElementById("fri-pay").innerHTML = result;
 }
 
 function satudayPay() {
-    let result = saturday * saturday_pay;
-    return result;
+    let result = saturday.value * saturday_pay;
+    return document.getElementById("sat-pay").innerHTML = result;
 }
 
 function sundayPay() {
-    let result = sunday * sunday_pay;
-    return result;
+    let result = sunday.value * sunday_pay;
+    return document.getElementById("sun-pay").innerHTML = result;
 }
 
 

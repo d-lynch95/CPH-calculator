@@ -1,4 +1,4 @@
-let weekday_pay = 29.23;
+    let weekday_pay = 29.23;
 
 let saturday_pay = 35.07;
 
