@@ -360,7 +360,6 @@ h1 {
     }
 
     #pay-break {
-        margin-left: 25vw;
         margin-bottom: 5vh;
     }
 
@@ -368,5 +367,8 @@ h1 {
         margin-left: 5vw;
     }
 
+    #daily{
+        text-align:center;
+    }
 
 }
