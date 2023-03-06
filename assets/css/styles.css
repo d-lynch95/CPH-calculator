@@ -419,7 +419,8 @@ h1 {
     }
 
     #daily{
-        text-align:center;
+        text-align:left;
+        padding-left: 25vw;
     }
 
     #sun-pay {
