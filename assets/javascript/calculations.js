@@ -7,14 +7,13 @@ let saturday = document.getElementById("saturday-hours");
 let sunday = document.getElementById("sunday-hours");
 
 function mondayPay() {
-    let result = monday * weekday_pay;
-    return result;
-    //document.getElementById"mon-pay".innerHTML = result;
+    let result = monday.value * weekday_pay;
+    return document.getElementById("mon-pay").innerHTML = result;
 }
 
 function tuesdayPay() {
     let result = tuesday * weekday_pay;
-    return result;
+    return document.getElementById;
 }
 
 function wednesdayPay() {
