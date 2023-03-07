@@ -59,8 +59,9 @@ function totalPay() {
 
 
 function HoursWorked() {
-    let result = monday.value + tuesday.value + wednesday.value 
-    + thursday.value + friday.value + saturday.value + sunday.value;
+    let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
+    + parseFloat(thursday.value) + parseFloat(friday.value) + parseFloat(saturday.value) 
+    + parseFloat(sunday.value);
     return document.getElementById("t-h-w").innerHTML = result;
 
 }
