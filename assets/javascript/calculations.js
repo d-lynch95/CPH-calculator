@@ -60,6 +60,11 @@ function totalPay() {
      return document.getElementById("totalspan").innerHTML = result;
  }
 
+ //function to calculate tax due per week
+ function TaxDue() {
+
+ }
+
 // function to look at hours worked during the week
 function HoursWorked() {
     let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
@@ -70,10 +75,10 @@ function HoursWorked() {
 
 
 // function to calculate total commission earned
-let TotalCommisson = document.getElementById("number");
+let totalCommission = document.getElementById("number");
 
 function totalCommissionEarned() {
-    let result = document.getElementById("number").innerHTML;
+    let result = totalCommission.value;
     return document.getElementById("t-c-e").innerHMTL = result;
 }
 
