@@ -64,7 +64,7 @@
                 <input type="number" max="8" min="0" step="0.5" class="hours_box" id="thursday-hours" oninput="thursdayPay()">
                 <input type="number" max="8" min="0" step="0.5" class="hours_box" id="friday-hours" oninput="fridayPay()">
                 <input type="number" max="8" min="0" step="0.5" class="hours_box" id="saturday-hours" oninput="saturdayPay()">
-                <input type="number" max="8" min="0" step="0.5" class="hours_box" id="sunday-hours" oninput="sundayPay()">
+                <input type="number" max="8" min="0" step="0.5" class="hours_box" id="sunday-hours" oninput="sundayPay(); HoursWorked()">
             </div>
         </div>
         
@@ -98,7 +98,7 @@
                 <p> Your tax due this week was:  - <span id="week-tax"></span></p>
             </div>
             <div id="bonus-breakdown">
-                <p>Your total hours worked this week were: <span></span></p>
+                <p>Your total hours worked this week were: <span id="t-h-w"></span></p>
 
                 <p>You total commission earned this week was:<span></span></p>
 

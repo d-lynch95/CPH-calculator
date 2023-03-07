@@ -42,20 +42,27 @@ function sundayPay() {
 }
 
 
-let monday_pay = document.getElementById("mon-pay").innerHTML;
-let tuesday_pay = document.getElementById("tue-pay").innerHTML;
-let wednesday_pay = document.getElementById("wed-pay").innerHTML;
-let thursday_pay = document.getElementById("thur-pay").innerHTML;
-let friday_pay = document.getElementById("fri-pay").innerHTML;
-let weekend1_pay = document.getElementById("sat-pay").innerHTML;
-let weekend2_pay = document.getElementById("sun-pay").innerHTML;
+let monday_pay = document.getElementById("mon-pay").innerText;
+let tuesday_pay = document.getElementById("tue-pay").innerText;
+let wednesday_pay = document.getElementById("wed-pay").innerText;
+let thursday_pay = document.getElementById("thur-pay").innerText;
+let friday_pay = document.getElementById("fri-pay").innerText;
+let weekend1_pay = document.getElementById("sat-pay").innerText;
+let weekend2_pay = document.getElementById("sun-pay").innerText;
 
-
+// Neeed to look at this function to get it to work
 function totalPay() {
-    let result = monday_pay.value + tuesday_pay.value + wednesday_pay.value 
-    + thursday_pay.value + friday_pay.value + weekend1_pay.value + weekend2_pay.value;
+    let result = monday_pay + tuesday_pay + wednesday_pay 
+    + thursday_pay + friday_pay + weekend1_pay + weekend2_pay;
      return document.getElementById("totalspan").innerHTML = result;
  }
 
+
+function HoursWorked() {
+    let result = monday.value + tuesday.value + wednesday.value 
+    + thursday.value + friday.value + saturday.value + sunday.value;
+    return document.getElementById("t-h-w").innerHTML = result;
+
+}
 
 
