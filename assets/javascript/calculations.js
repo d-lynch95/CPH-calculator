@@ -67,7 +67,7 @@ function totalPay() {
 
  }
 
-// function to look at hours worked during the week
+// function to look at hours worked during the week ??????
 function HoursWorked() {
     let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
     + parseFloat(thursday.value) + parseFloat(friday.value) + parseFloat(saturday.value) 
@@ -84,4 +84,13 @@ function totalCommissionEarned() {
     return document.getElementById("t-c-e").innerText = result;
 }
 
+// function to calculate the amount of commission earned per hour
+let totalHours = document.getElementById("t-h-w");
 
+
+// Need to fix this function????
+function cphCalculate() {
+    let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
+
+    return document.getElementById("commissionPerHour").innerText = result;
+}
