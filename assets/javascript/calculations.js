@@ -45,19 +45,21 @@ function sundayPay() {
 }
 
 // function to calculate total wage
-let monday_pay = document.getElementById("mon-pay").innerText;
-let tuesday_pay = document.getElementById("tue-pay").innerText;
-let wednesday_pay = document.getElementById("wed-pay").innerText;
-let thursday_pay = document.getElementById("thur-pay").innerText;
-let friday_pay = document.getElementById("fri-pay").innerText;
-let weekend1_pay = document.getElementById("sat-pay").innerText;
-let weekend2_pay = document.getElementById("sun-pay").innerText;
+let monday_pay = document.getElementById("mon-pay").innerHMTL;
+let tuesday_pay = document.getElementById("tue-pay").innerHMTL;
+let wednesday_pay = document.getElementById("wed-pay").innerHMTL;
+let thursday_pay = document.getElementById("thur-pay").innerHMTL;
+let friday_pay = document.getElementById("fri-pay").innerHMTL;
+let weekend1_pay = document.getElementById("sat-pay").innerHMTL;
+let weekend2_pay = document.getElementById("sun-pay").innerHMTL;
 
 // Neeed to look at this function to get it to work
 function totalPay() {
-    let result = monday_pay + tuesday_pay + wednesday_pay 
-    + thursday_pay + friday_pay + weekend1_pay + weekend2_pay;
-     return document.getElementById("totalspan").innerHTML = result;
+    let result = parseFloat(monday_pay) + parseFloat(tuesday_pay) + parseFloat(wednesday_pay)
+    + parseFloat(thursday_pay) + parseFloat(friday_pay) + parseFloat(weekend1_pay) 
+    + parseFloat(weekend2_pay);
+    
+    return document.getElementById("totalspan").innerHTML = result;
  }
 
  //function to calculate tax due per week
@@ -79,7 +81,7 @@ let totalCommission = document.getElementById("number");
 
 function totalCommissionEarned() {
     let result = totalCommission.value;
-    return document.getElementById("t-c-e").innerHMTL = result;
+    return document.getElementById("t-c-e").innerText = result;
 }
 
 
