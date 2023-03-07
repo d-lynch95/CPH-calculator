@@ -1,3 +1,6 @@
+//function to calculate daily pay by inputting hours worked and
+// multiply them by different daily rates
+
 let monday = document.getElementById("monday-hours");
 let tuesday = document.getElementById("tuesday-hours");
 let wednesday = document.getElementById("wednesday-hours");
@@ -41,7 +44,7 @@ function sundayPay() {
     return document.getElementById("sun-pay").innerHTML = result.toFixed(2);
 }
 
-
+// function to calculate total wage
 let monday_pay = document.getElementById("mon-pay").innerText;
 let tuesday_pay = document.getElementById("tue-pay").innerText;
 let wednesday_pay = document.getElementById("wed-pay").innerText;
@@ -57,13 +60,21 @@ function totalPay() {
      return document.getElementById("totalspan").innerHTML = result;
  }
 
-
+// function to look at hours worked during the week
 function HoursWorked() {
     let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
     + parseFloat(thursday.value) + parseFloat(friday.value) + parseFloat(saturday.value) 
     + parseFloat(sunday.value);
     return document.getElementById("t-h-w").innerHTML = result;
+}
 
+
+// function to calculate total commission earned
+let TotalCommisson = document.getElementById("number");
+
+function totalCommissionEarned() {
+    let result = document.getElementById("number").innerHTML;
+    return document.getElementById("t-c-e").innerHMTL = result;
 }
 
 

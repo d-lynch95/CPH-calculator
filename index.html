@@ -71,7 +71,7 @@
         <div id="desktop-flex">
             <div id="comms">
                 <h3 id="commission">Commission made</h3>
-                <input type="number" id="number" oninput="totalPay()">
+                <input type="number" id="number" oninput="totalPay();totalCommissionEarned()">
             </div>
             
             <div id="visa-tax">
@@ -100,7 +100,7 @@
             <div id="bonus-breakdown">
                 <p>Your total hours worked this week were: <span id="t-h-w"></span></p>
 
-                <p>You total commission earned this week was:<span></span></p>
+                <p>You total commission earned this week was:<span id="t-c-e"></span></p>
 
                 <p> Your commission earned per hour was: <span></span></p>
             </div>
