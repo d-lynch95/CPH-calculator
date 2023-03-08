@@ -103,10 +103,9 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, Itinerary and Contact us page. The nav bar on each page is the exact same to allow for ease of navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - This section clearly shows the  company logo allowing users to instantly recognise the brand. The header also includes a title clearly displaying that the website is a "Pay calculator"
 
 ![Nav Bar](media/nav.webp)
 
