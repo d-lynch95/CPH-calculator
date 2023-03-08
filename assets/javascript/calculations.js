@@ -90,7 +90,7 @@ function totalCommissionEarned() {
 let totalHours = document.getElementById("t-h-w");
 
 
-// Need to fix this function????
+// function to calculate commission earned per hour
 function cphCalculate() {
     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
     return document.getElementById("commissionPerHour").innerText = result.toFixed(0);

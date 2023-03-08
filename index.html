@@ -80,13 +80,13 @@
             </div>
 
             <div>
-                <button id="calculate" onclick="cphCalculate();  HoursWorked()">Let's Go</button>
+                <button id="calculate" onclick="cphCalculate();  HoursWorked()">Calculate now!</button>
             </div>
         </div>
     </div>
 
     <div id="pay">
-        <h2 id="yourpay"> Your pay is <span></span></h2>
+        <h2 id="yourpay"> Your pay is <span class="totalspan"</span></h2>
         <details id="breakdown">
             <summary id="pay-break"> See pay breakdown.</summary>
 
@@ -98,7 +98,7 @@
                 <p> On Friday you earned :   $<span id="fri-pay"></span></p>
                 <p> On Saturday you earned : $<span id="sat-pay"></span></p>
                 <p> On Sunday you earned :   $<span id="sun-pay"></span></p>
-                <p id="total-weekly-pay">Total weekly pay: $<span id="totalspan"></span></p>
+                <p id="total-weekly-pay">Total weekly pay: $<span class="totalspan"></span></p>
                 <p> Your tax due this week was:  - <span id="week-tax"></span></p>
             </div>
             <div id="bonus-breakdown">

@@ -391,9 +391,16 @@ h1 {
         margin-top: 2vh;
     }
 
-    #calculate{
-        width: 10vw;
-        height:auto;
+    #calculate {
+        height: 8vh;
+        width: 13vw;
+        margin-left: 25vw;
+        margin-top: 8vh;
+        color:#f58321;
+        background-color: white;
+        font-size: 3vh;
+        border: black solid 3px;
+    
     }
 
     /* pay breakdown section */
