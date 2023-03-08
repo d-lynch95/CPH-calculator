@@ -55,9 +55,9 @@ let weekend2_pay = document.getElementById("sun-pay").innerHMTL;
 
 // Neeed to look at this function to get it to work
 function totalPay() {
-    let result = parseFloat(monday_pay) + parseFloat(tuesday_pay) + parseFloat(wednesday_pay)
-    + parseFloat(thursday_pay) + parseFloat(friday_pay) + parseFloat(weekend1_pay) 
-    + parseFloat(weekend2_pay);
+    let result = parseFloat(monday_pay.value) + parseFloat(tuesday_pay.value) + parseFloat(wednesday_pay.value)
+    + parseFloat(thursday_pay.value) + parseFloat(friday_pay.value) + parseFloat(weekend1_pay.value) 
+    + parseFloat(weekend2_pay.value);
     
     return document.getElementById("totalspan").innerHTML = result;
  }
@@ -91,6 +91,5 @@ let totalHours = document.getElementById("t-h-w");
 // Need to fix this function????
 function cphCalculate() {
     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
-
     return document.getElementById("commissionPerHour").innerText = result;
 }
