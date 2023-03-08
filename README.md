@@ -107,14 +107,14 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
   - This section clearly shows the  company logo allowing users to instantly recognise the brand. The header also includes a title clearly displaying that the website is a "Pay calculator"
 
-![Header](media/nav.webp)
+![Header](assets/images/features/title.webp)
 
 - __Instructions section__
 
   - The instuctions section includes four very simple steps for users to follow in order to use the tool.
   - This section is very easy to follow and allows users to use the tool with minimal effort on their end.
 
-![Instructions](media/landing.webp)
+![Instructions](assets/images/features/instructions.webp)
 
 - __Hours worked section__
 
@@ -122,22 +122,18 @@ The wireframes were developed in a mobile first environment. The original wirefr
   - The input boxes take number inputs and have a maximum of 8 hours. This is due to casual contract workers not being allowed to work more than 8 hours per day.
   - The hours are stepped in 0.5 intervals as this is how pay is calculated.
 
-![Hours Worked](media/attractions.webp)
+![Hours Worked](assets/images/features/hoursworked.webp)
 
-- __Commission section__
+- __Commission and Tax section__
 
   - This section will allow the user to input the total amount of commission earned.
   - This figure will then be taken into multiple formulas and used to calculate commission per hour and the commission bonuses.
-
-
-![Commission](media/faq.webp)
-
-- __Tax section__ 
-
-  - This section contains a simple checkbox. As most employees are on working holiday visas the box is automatically checked
+  - The tax section contains a simple checkbox. As most employees are on working holiday visas the box is automatically checked
   - The information gathered at this section will help to decide whether to base employees tax calculations off a 15% or a 35% tax bracket.
-  
-![Tax](media/footer.webp)
+
+
+![Commission](assets/images/features/commission.webp)
+
 
 - __Pay breakdown section__
 
@@ -152,7 +148,7 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
   
 
-![Pay breakdown](media/itinerary.webp)
+![Pay breakdown](assets/images/features/breakdown.webp)
 
  
 - __Error 404 Page__
