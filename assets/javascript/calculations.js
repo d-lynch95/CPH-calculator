@@ -94,5 +94,5 @@ let totalHours = document.getElementById("t-h-w");
 function cphCalculate() {
     console.log("This formula is working")
     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
-    return document.getElementById("commissionPerHour").innerText = result;
+    return document.getElementById("commissionPerHour").innerText = result.toFixed();
 }
