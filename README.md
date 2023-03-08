@@ -107,78 +107,56 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
   - This section clearly shows the  company logo allowing users to instantly recognise the brand. The header also includes a title clearly displaying that the website is a "Pay calculator"
 
-![Nav Bar](media/nav.webp)
+![Header](media/nav.webp)
 
-- __The landing page image__
+- __Instructions section__
 
-  - The landing includes a photograph with text overlay to allow the user to know the exact purpose of the website.
-  - This section teases the user with a picture of the Twelve apostles geographical feature and the caption "Your guide to one of Australias most scenic drives.
+  - The instuctions section includes four very simple steps for users to follow in order to use the tool.
+  - This section is very easy to follow and allows users to use the tool with minimal effort on their end.
 
-![Landing Page](media/landing.webp)
+![Instructions](media/landing.webp)
 
-- __Attractions section__
+- __Hours worked section__
 
-  - The attractions section allows the user to see some of the highlights of the Great Ocean Road and some of the activities or sights they will encounter along the way.  
-  - There are two calls to action under the attractions section. One is a 'Find out more' CTA which will link the user to the Itinerary page. The other is a "Contact us" CTA which will link the user to the Contact us page where the user can fill out their details and submit a form to acquire  further information. Both of these buttons will open the page in a new tab to allow the user to return easily to where they had been.
+  - The hours worked section contains the names of the weekdays and corresponding input boxes.
+  - The input boxes take number inputs and have a maximum of 8 hours. This is due to casual contract workers not being allowed to work more than 8 hours per day.
+  - The hours are stepped in 0.5 intervals as this is how pay is calculated.
 
-![Attractions](media/attractions.webp)
+![Hours Worked](media/attractions.webp)
 
-- __Frequently Asked Questions section__
+- __Commission section__
 
-  - This section will allow the user to find the answers to common questions.
-  - This section will have icons beside each question.
-  - This section will focus on what, where, when and how.
-    What is the great ocean road?
-    How can I navigate it/What is the best way to travel?
-    What are the main attractions?
-    When is the best time to go?
-  - The questions will expand with the answer when clicked. This is intuitive behaviour for an FAQ section.
-     
-
-![FAQ](media/faq.webp)
-
-- __The Footer__ 
-
-  - The footer is broken into two sections. It contains a address section and a link to the social medias (facebook, twitter, instagram, youtube). 
-  - The footer is valuable to the user as it encourages them to keep connected via social media and also to find our physical address without having to search for our contact information.
-  - The footer is the same on all of the webpages to allow for standardisation and ease of use.
-
-![Footer](media/footer.webp)
-
-- __Itinerary Page__
-
-  - This page will allow the user to view a sample three day itinerary. The page will provide links to the different activities but will not provide too much information. The page will contain links to websites for different activities and also includes a link to our contact page.
-
-  -The page also contains an iFrame with an embedded youtube video which displays lonely planet footage of the Great Ocean Road.
-
-![Itinerary](media/itinerary.webp)
-![iFrame](media/iframe.webp)
+  - This section will allow the user to input the total amount of commission earned.
+  - This figure will then be taken into multiple formulas and used to calculate commission per hour and the commission bonuses.
 
 
-- __Gallery__
+![Commission](media/faq.webp)
 
-  - The gallery will provide the user with supporting images to see what the attractions look like. 
-  - This section is valuable to the user as they will be able to easily visualise the different tourist attractions along the route and will get the user excited for their trip and make them more likely to contact us for more information.
+- __Tax section__ 
 
-![Gallery](media/gallery.webp)
+  - This section contains a simple checkbox. As most employees are on working holiday visas the box is automatically checked
+  - The information gathered at this section will help to decide whether to base employees tax calculations off a 15% or a 35% tax bracket.
+  
+![Tax](media/footer.webp)
 
-- __The Contact Us Page__
+- __Pay breakdown section__
 
-  - This page has a large hero image along with a sign up form. The sign up form asks for the users basic information and includes a checkbox to allow us to better answer the customers query.   This section also includes contact information such as an email with clickable email link and a phone number that when clicked will allow the user to call directly from their laptop or mobile. The address for the office is also included aswell as an embedded google maps link to allow for easy navigation to our office location in Melbourne.
+  - This section allows the user to view their over all pay and the precise breakdown of their pay.
+  - This section shows how much the user made for working each day. Weekday pay is 29.23 per hour, Saturday pay is 35.07 and Sunday pay is 40.92 per hour. The user can then see the total pay per week.
+  - The next section shows the users tax paid per week. This is calculated using a formula depending whether a user is on a working holiday visa or not.
+  - The next section shows the user their total hours worked. User can also see their total commission made for the company.
+  - The commission per hour section is then broken down by dividing commission by number of hours worked.
+  - The bonus is calculated by using the formula that includes the different cph bands.
+  - This bonus is then multiplied by the hours worked to calculate total bonus.
+  - The total bonus is calculated by adding total weekly wage, deducting tax paid and adding the bonus.
 
-![Contact form](media/form.webp)
-![Contact Us](media/contact.webp)
+  
 
+![Pay breakdown](media/itinerary.webp)
 
-- __Form submission landing page__ 
-  - This page allows the user to know that their form has been submitted and that someone will contact them using the information that they have provided. The user is greeted with a large hero image with the text "We got this one. We'll be in contact soon". This page has a nav bar at the top to allow the user to easily return back to the other web pages.
-
- ![Form Submission](media/submission.webp)
-
- 
  
 - __Error 404 Page__
-    - This page will help the user navigate back to the home page if there is any typo or broken links in the site. This page will contain the nav bar to help navigate and also a clickable link to return home.
+    - This page will help the user navigate back to the home page if there is any typo or broken links in the site. This page will contain a clickable link to return home.
 
 ![Error 404](media/error404.webp)
 
