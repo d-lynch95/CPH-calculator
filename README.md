@@ -336,38 +336,25 @@ The contactus.html page required more indepth manual testing as we had several f
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Main Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://d-lynch95.github.io/Portfolio-1-GreatOceanRoadsters/
+The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-calculator/
 
 ## Credits 
 
 ### Content 
 
-- The following websites were used to source information on the different attractions : 
-
-  - https://www.visitmelbourne.com/
-  -  https://visitgreatoceanroad.org.au/
-  -  https://visitapollobay.com/
-  -  https://visit12apostles.com.au/
-  -  https://www.greatoceanroadaustralia.org/
-  -  https://greatoceanroadmelbournetours.com.au/
-  -  https://www.parks.vic.gov.au/
-
 - The format and template for the README file was borrowed from the [Code institute](https://codeinstitute.net/ie/)
-
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-- The hero image and images for the different attractions were taken from [Pexels](https://www.pexels.com)
-
-- The text for the FAQ section on the index page was taken from Wikipedia.
-
-- The ideas for the footer came from [Colibri](https://colibriwp.com/blog/website-footers/)
 
 - The image conversions from jpg to webp were done with [Convertio](https://convertio.co)
 
 - The image compressions were done using [Tinypng](https://tinypng.com)
 
+- The fonts were taken from googlefonts.
+
+- The logo was downloaded from Google images
+
+- The Favicon was made using [Favicon](https://favicon.io/)
 
 
 
