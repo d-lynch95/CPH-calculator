@@ -53,15 +53,19 @@ let friday_pay = document.getElementById("fri-pay");
 let weekend1_pay = document.getElementById("sat-pay");
 let weekend2_pay = document.getElementById("sun-pay");
 
-// Neeed to look at this function to get it to work
+// function to calculate total pay
 function totalPay() {
-    let result = monday_pay + tuesday_pay + wednesday_pay + thursday_pay + friday_pay
-    + weekend1_pay + weekend2_pay;
-    return document.getElementById("totalspan").innerHTML = result;
+    console.log("The function has been called")
+    let result = parseFloat(monday_pay.innerHTML) + parseFloat(tuesday_pay.innerHTML) + parseFloat(wednesday_pay.innerHTML) + 
+    parseFloat(thursday_pay.innerHTML) + parseFloat(friday_pay.innerHTML) + parseFloat(weekend1_pay.innerHTML) + parseFloat(weekend2_pay.innerHTML);
+    return document.getElementById("totalspan").innerHTML = result.toFixed(2);
 }
 
  //function to calculate tax due per week
- function TaxDue() {
+ function taxDue() {
+        let amt = document.getElementById("totalspan").innerHTML;
+        let tax = amt * 0.15;
+        return document.getElementById("week-tax").innerHTML = tax.toFixed(2) ;
 
  }
 
@@ -88,6 +92,7 @@ let totalHours = document.getElementById("t-h-w");
 
 // Need to fix this function????
 function cphCalculate() {
+    console.log("This formula is working")
     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
     return document.getElementById("commissionPerHour").innerText = result;
 }
