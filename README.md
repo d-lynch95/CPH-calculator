@@ -357,52 +357,12 @@ The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-cal
 - The Favicon was made using [Favicon](https://favicon.io/)
 
 
-
-### Media
-
-- The hero image and the images for the itinerary page were taken from [Pexels](https://pexels.com)
-
-- The favicon was sourced from [Favicon.io] (https://favicon.io/favicon-generator/)
-
-- The youtube iframe footage was taken from [Oleg Smirnov](https://www.youtube.com/watch?v=9OcBGr5-yRE)
-
-- The photos for the gallery were all taken from [Unsplash](https://unsplash.com/s/photos/great-ocean-road)
-
-
 ### Coding help
 
 - The outline template for the HTML body was provided by the [Code Institiute](https://www.codeinstitute.com)
 
-- Formatting for the hero image was sourced from https://dzuz14.medium.com/code-a-full-width-hero-background-image-with-transparent-overlay-95d757f8ff2c
-
-- Attaching the email link on contact us page was sourced from [Indeed](https://www.indeed.com/career-advice/career-development/how-to-make-email-link-in-html)
-
-- The link to calling a phone number on the contact us page was sourced from https://www.gaintap.com/archives/clickable-website-phone-number-and-call-tracking-guide/.
-
-- The map for the contact us was created using the map creator function on [Maps.ie] (https://www.maps.ie and they also provided the hmtl code). When using HTML w3c validator this content raised a lot of issues with outdated html.
-
-- Insteas the iframe is now embedded directly on the website following advice from [Google support](https://support.google.com/maps/answer/144361?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Embed%20a%20map%20or%20directions&text=Click%20Share%20or%20embed%20map,Click%20Embed%20map.&text=Copy%20the%20text%20in%20the,of%20your%20website%20or%20blog.)
-
-- The font was inspired by the logo of https://visitgreatoceanroad.org.au/ . We then located a similar font on google fonts, paired it with another font using Fontjoy and imported them from there.
-
-- Styling of the attractions images was sourced from [w3schools] (https://www.w3schools.com/css/css3_images.asp)
-
-- The code for the hamburger menu was taken from [this webpage](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
-
-- The bug related to the hamburger menu was solved using help from [this blog] (https://codingbeautydev.com/blog/javascript-cannot-read-property-addeventlistener-of-null/#:~:text=November%2014%2C%202022-,The%20%E2%80%9Ccannot%20read%20property%20'addEventListener'%20of%20null%E2%80%9D%20error,element%20absent%20from%20the%20DOM)
-
-- Changing the icons for the FAQ section was done with help from [Stack overflow] (https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
+- A lot of the Javascript coding was done with help from the tutorial pages at [w3schools](https://www.w3schools.com/)
 
 - Adding the Favicon to the website was done using help from [StackOverflow](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website)
-
-- The accesability advice for the hamburger menu came from [UXdesign] (https://uxdesign.cc/create-an-accessible-hamburger-menu-869b0301cfd7)
-
-- The styling for the CTA anchor tags on the index page was taken from [FreeCodeCamp](https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/)
-
-- I received a lot of assistance on creating the readme from other CI slack users namely [Siobhan Gorman](https://github.com/siobhanlgorman/Sourdough-Bakes/blob/master/README.md#user-stories) , [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels/blob/main/README.md) and [Jarrad Baker](https://jarradbaker-cipp1skates-4jhsh0to8md.ws-us85.gitpod.io/)
-
-- The aria-label for the nav menu was formatted using information from [Acede-web](https://www.accede-web.com/en/guidelines/rich-interface-components/hamburger-menu/)
-
- - I received help on the bug related to the form method attribute from 'Sean Young Alumni' on slack.
 
  - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
