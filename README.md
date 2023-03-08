@@ -90,8 +90,6 @@ The wireframes were developed in a mobile first environment. The original wirefr
   - The website was developed on GitPod
 - Git 
   - used to commit and push code during development
-- FontAwesome
-  - Icons used for social media links and FAQ icons were obtained from [here](https://fontawesome.com/)
 - Convertio.co
   - [This](https://convertio.co/) site was used to convert jpg and png files to webp files
 - Tinypng
