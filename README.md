@@ -62,28 +62,21 @@ The CPH calculator is an interactive online tool to help employees of HappyTrave
 ## Design
 
 ### Font
-The design of this website is based off a very minimalist style. The purpose of this website is to provide a tool for users to calculate their weekly pay with ease. The design of the website focuses on usability and ease of understanding instead of complex design. The orange colour scheme is in-line with the HappyTravels brand and the main page title is written in a Lillita one font to reflect the fun font of the HappyTravels logo
+The design of this website is based off a very minimalist style. The purpose of this website is to provide a tool for users to calculate their weekly pay with ease. The design of the website focuses on usability and ease of understanding instead of complex design. The orange colour scheme is in-line with the HappyTravels brand and the main page title is written in a Lillita one font to reflect the fun and playful font of the HappyTravels logo. The main body is written in an Open Sans font to allow for accessibility and ease of reading. The font for the main body is white to allow for contrast and ease of reading. This font colour is also in line with brand guidelines.
 
 ### Structure
 
-We went for a simple four page website with a confirmation page following form submission and an error 404 page with a link back to the homepage. We found this format was easiest to allow users to navigate the website and achieve their user goals without the website becoming too complicated or clutered.
+This website has a simple single page design. This format was easiest and allows the user to understand the information input process and use the tool instantaneously. The page also has a 404 error page to deal with any errors and allow the users to return to the main page.
+
 
 ### Wireframe
 
-The site has developed a lot since the original wireframes were created. The original wirerames were not created in a mobile first environment and instead reflect a desktop site. This was an interesting learning experience during this project. In future we will develop websites in a mobile first environment.
+The wireframes were developed in a mobile first environment. The original wireframe design has had some minor alterations during production but has mostly remained true to the design.
 
-##### Index Page
+##### Main Page
 
-![Index](wireframes/Index_wireframe.png)
-![Index Mobile](wireframes/index-mobile.png)
-
-#### Itinerary page
-![Itinerary](wireframes/Itinerary_wireframe.png)
-![Itinerary mobile](wireframes/itinerary-mobile.png)
-
-#### Contact us page
-![Contact Us](wireframes/Contact_wireframe.png)
-![Contact Us Mobile](wireframes/contact-mobile.png)
+![Mobile Wireframe](assets/images/wireframes/mobilewireframe.png)
+![Desktop Wireframe](assets/images/wireframes/desktopwireframe.png)
 
 
 ## Technologies used
