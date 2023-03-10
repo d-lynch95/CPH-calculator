@@ -55,15 +55,14 @@ let weekend2_pay = document.getElementById("sun-pay");
 
 // function to calculate total pay
 function totalPay() {
-    console.log("The function has been called")
-    let result = parseFloat(monday_pay.innerHTML) + parseFloat(tuesday_pay.innerHTML) + parseFloat(wednesday_pay.innerHTML) + 
-    parseFloat(thursday_pay.innerHTML) + parseFloat(friday_pay.innerHTML) + parseFloat(weekend1_pay.innerHTML) + parseFloat(weekend2_pay.innerHTML);
-    return document.getElementById("totalspan").innerHTML = result.toFixed(2);
+    let result = monday_pay.innerHTML + tuesday_pay.innerHTML + wednesday_pay.innerHTML + 
+    thursday_pay.innerHTML + friday_pay.innerHTML + weekend1_pay.innerHTML + weekend2_pay.innerHTML;
+    return document.getElementsByClassName("totalspan").innerText = result;
 }
 
  //function to calculate tax due per week
  function taxDue() {
-        let amt = document.getElementById("totalspan").innerHTML;
+        let amt = document.getElementsByClassName("totalspan").innerHTML;
         let tax = amt * 0.15;
         return document.getElementById("week-tax").innerHTML = tax.toFixed(2) ;
 
