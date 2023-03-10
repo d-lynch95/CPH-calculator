@@ -204,38 +204,6 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 
 
 
-- Itinerary page
-
-
-![Itinerary Lighthouse](media/accesable/new-itinerary-lighthouse.webp)
-![Itinerary Wave](media/accesable/itinerary_wave.webp)
-
-
-
-- Gallery page
-
-
-![Gallery Lighthouse](media/accesable/new-gallery-lighthouse.webp)
-![Gallery Wave](media/accesable/gallery_wave.webp)
-
-
-
-- Contact Us page
-
-
-![Contact Lighthouse](media/accesable/new-contactus-lighthouse.webp)
-![Contact Wave](media/accesable/contact-wave.png)
-
-
-
-- Confirmation page
-
-
-![Confirmation Lighthouse](media/accesable/Confirmation_lighthouse.webp)
-![Confirmation Wave](media/accesable/Confirmation_wave.webp)
-
-
-
 
 ### Validator Testing 
 
@@ -243,19 +211,7 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Findex.html)
   ![Index page](media/validator/index-validator.png)
 
-  - No errors were reported for the itineray page [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Fitinerary.html)
-  ![Itinerary page](media/validator/itinerary-validator.png)
-
-  - No errors were reported for the gallery page [W3C Validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Fgallery.html)
-  ![Gallery Page](media/validator/gallery-validator.png)
-
-  - No errors were reported for the contact us page [W3C validator]()
-  ![Contact Us](media/validator/contact-validator.png)
-
-  - No errors were reported for the confirmation page [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Fcomfirmation.html%3Ffname%3DTest%26lname%3Dtesty%26email%3Dtest%2540testy.com%26phone%3D00000000%26itinerary%3Don%26Let%2527s%2BGo%2521%3DSubmit)
-  ![Confirmation](media/validator/confirmation-validator.png)
-
-
+  
   -
 - CSS
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
