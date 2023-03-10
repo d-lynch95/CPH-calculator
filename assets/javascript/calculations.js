@@ -99,3 +99,13 @@ function cphCalculate() {
 }
 
 // formula to calculate commission per hour using different bands and pay scales
+
+switch (document.getElementById("commissionPerHour")){
+
+    default:
+        text = "No bonus";
+}
+
+
+
+
