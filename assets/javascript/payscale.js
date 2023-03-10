@@ -1,11 +1,15 @@
+// These variables outline the amount of money paid per hour for working on different days
 let weekday_pay = 29.23;
 
 let saturday_pay = 35.07;
 
 let sunday_pay = 40.92;
 
+// This variable reflects the 15% working holiday tax rate
 let working_holiday_tax = 0.15;
 
+
+// These variables show the dollar per hour bonus depending on which CPH bracket is applied
 let cph100 = 1;
 
 let cph125 = 3;

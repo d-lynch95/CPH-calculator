@@ -102,6 +102,8 @@ function cphCalculate() {
 
 switch (document.getElementById("commissionPerHour")){
 
+    
+
     default:
         text = "No bonus";
 }
