@@ -64,7 +64,8 @@ function totalPay() {
 
  //function to calculate tax due per week
  function taxDue() {
-        let amt = document.getElementsById("twp").innerHTML;
+        console.log("Is this thing on?")
+        let amt = document.getElementById("twp").innerHTML;
         let tax = amt * 0.15;
         return document.getElementById("week-tax").innerHTML = tax.toFixed(2) ;
 
@@ -96,3 +97,5 @@ function cphCalculate() {
     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
     return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
 }
+
+// formula to calculate commission per hour using different bands and pay scales
