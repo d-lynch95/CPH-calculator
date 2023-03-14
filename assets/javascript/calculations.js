@@ -16,8 +16,7 @@ function calculateAll() {
     let saturday = document.getElementById("saturday-hours");
     let sunday = document.getElementById("sunday-hours");
     
-    function calculatePay() {
-        function mondayPay() {
+    function mondayPay() {
             let result = monday.value * weekday_pay;
             return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
         }
@@ -51,7 +50,7 @@ function calculateAll() {
             let result = sunday.value * sunday_pay;
             return document.getElementById("sun-pay").innerHTML = result.toFixed(2);
         }
-    }
+
 
         // function to calculate total wage
         let monday_pay = document.getElementById("mon-pay");
