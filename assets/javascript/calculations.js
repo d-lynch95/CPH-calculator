@@ -2,6 +2,7 @@
 // multiply them by different daily rates
 
 
+// All functions will be nested inside this larger function
 function calculateAll {
 
 
@@ -117,7 +118,12 @@ let cphtest = document.getElementById("commissionPerHour")
 switch (cphtest){
 
     case 0 :
-        
+        cphtest > 500;
+        document.getElementById("payBonus").innerHTML = cph550;
+        break;
+
+    case 1 : 
+
     default:
         text = "No bonus";
 }
