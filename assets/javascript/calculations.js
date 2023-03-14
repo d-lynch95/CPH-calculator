@@ -8,6 +8,7 @@ function calculateAll {
 
 }
 
+
 document.getElementById("calculate").addEventListener("click", calculateAll())
 
 let monday = document.getElementById("monday-hours");
@@ -17,6 +18,13 @@ let thursday = document.getElementById("thursday-hours");
 let friday = document.getElementById("friday-hours");
 let saturday = document.getElementById("saturday-hours");
 let sunday = document.getElementById("sunday-hours");
+
+let days = [monday, tuesday, wednesday, thursday, friday, saturday, sunday];
+
+function calculatePay() {
+
+    for (i )
+}
 
 function mondayPay() {
     let result = monday.value * weekday_pay;
