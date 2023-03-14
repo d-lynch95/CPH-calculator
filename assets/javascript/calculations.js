@@ -1,6 +1,14 @@
 //function to calculate daily pay by inputting hours worked and
 // multiply them by different daily rates
 
+
+function calculateAll {
+
+
+}
+
+document.getElementById("calculate").addEventListener("click", calculateAll())
+
 let monday = document.getElementById("monday-hours");
 let tuesday = document.getElementById("tuesday-hours");
 let wednesday = document.getElementById("wednesday-hours");
@@ -14,10 +22,14 @@ function mondayPay() {
     return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
 }
 
+document.getElementById("monday-hours").addEventListener("input", mondayPay());
+
 function tuesdayPay() {
     let result = tuesday.value * weekday_pay;
     return document.getElementById("tue-pay").innerHTML = result.toFixed(2);
 }
+
+document.getElementById("tuesday-hours").addEventListener("input", tuesdayPay());
 
 function wednesdayPay() {
     let result = wednesday.value * weekday_pay;
