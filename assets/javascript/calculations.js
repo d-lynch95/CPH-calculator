@@ -3,8 +3,63 @@
 
 
 // All functions will be nested inside this larger function
-function calculateAll {
-        // function to calculate total wage
+function calculateAll { 
+
+    let monday = document.getElementById("monday-hours");
+    let tuesday = document.getElementById("tuesday-hours");
+    let wednesday = document.getElementById("wednesday-hours");
+    let thursday = document.getElementById("thursday-hours");
+    let friday = document.getElementById("friday-hours");
+    let saturday = document.getElementById("saturday-hours");
+    let sunday = document.getElementById("sunday-hours");
+
+    let weekdays = [monday, tuesday, wednesday, thursday, friday, saturday, sunday];
+
+    let hours = document.getElementsByClassName("hours_box");
+
+    function calculatePay() {
+        for (i in weekdays, i.length, i++){
+
+            if (i = saturday) {
+                let result = saturday.value * saturday_pay;
+                return document.getElementById("sat-pay").innerHTML = result.toFixed(2)
+            }
+
+            else if (i = sunday){
+                let result = sunday.value * sunday_pay;
+                return document.getElementById("sun-pay").innerHTML = result.toFixed(2);
+            }
+
+            else if (i = monday){
+                let result = monday.value * weekday_pay;
+                return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
+            }
+
+            else if (i = tuesday){
+                let result = tuesday.value * weekday_pay;
+                return document.getElementById("tue-pay").innerHTML = result.toFixed(2);
+            }
+
+            else if (i = wednesday){
+                let result = wednesday.value * weekday_pay;
+                return document.getElementById("wed-pay").innerHTML = result.toFixed(2);
+            }
+
+            else if (i = thursday) {
+                let result = thursday.value * weekday_pay;
+                return document.getElementById("thur-pay").innerHTML = result.toFixed(2);
+            }
+
+            else (i = friday){
+                let result = friday.value * weekday_pay;
+                return document.getElementById("fri-pay").innerHTML = result.toFixed(2);
+            }
+        }
+}
+
+
+
+    // function to calculate total wage
     let monday_pay = document.getElementById("mon-pay");
     let tuesday_pay = document.getElementById("tue-pay");
     let wednesday_pay = document.getElementById("wed-pay");
@@ -128,69 +183,5 @@ function calculateAll {
 
 
     }
-    document.getElementById("calculate").addEventListener("click", calculateAll())
 
-
-
-
-
-
-
-    
-    let monday = document.getElementById("monday-hours");
-    let tuesday = document.getElementById("tuesday-hours");
-    let wednesday = document.getElementById("wednesday-hours");
-    let thursday = document.getElementById("thursday-hours");
-    let friday = document.getElementById("friday-hours");
-    let saturday = document.getElementById("saturday-hours");
-    let sunday = document.getElementById("sunday-hours");
-
-    let weekdays = [monday, tuesday, wednesday, thursday, friday];
-
-    function calculatePay() {
-
-        for (i in weekdays, i.length, i*weekday_pay) {
-            
-        }
-}
-
-function mondayPay() {
-    let result = monday.value * weekday_pay;
-    return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
-}
-
-function tuesdayPay() {
-    let result = tuesday.value * weekday_pay;
-    return document.getElementById("tue-pay").innerHTML = result.toFixed(2);
-}
-
-document.getElementById("tuesday-hours").addEventListener("input", tuesdayPay());
-
-function wednesdayPay() {
-    let result = wednesday.value * weekday_pay;
-    return document.getElementById("wed-pay").innerHTML = result.toFixed(2);
-}
-
-function thursdayPay() {
-    let result = thursday.value * weekday_pay;
-    return document.getElementById("thur-pay").innerHTML = result.toFixed(2);
-}
-
-function fridayPay() {
-    let result = friday.value * weekday_pay;
-    return document.getElementById("fri-pay").innerHTML = result.toFixed(2);
-}
-
-function saturdayPay() {
-    let result = saturday.value * saturday_pay;
-    return document.getElementById("sat-pay").innerHTML = result.toFixed(2);
-}
-
-function sundayPay() {
-    let result = sunday.value * sunday_pay;
-    return document.getElementById("sun-pay").innerHTML = result.toFixed(2);
-}
-
-
-
-
+    document.getElementById("calculate").addEventListener("click", calculateAll());
