@@ -4,8 +4,6 @@
 
 // All functions will be nested inside this larger function
 
-document.getElementById("calculate").addEventListener("click", calculateAll);
-
 function calculateAll() {
 
     let monday = document.getElementById("monday-hours");
@@ -169,3 +167,5 @@ function calculateAll() {
                 document.getElementById("payBonus").innerHTML = parseFloat(0);
         }
 }
+
+document.getElementById("calculate").addEventListener("click", calculateAll);

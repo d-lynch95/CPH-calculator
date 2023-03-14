@@ -88,6 +88,7 @@ h1 {
         padding-left:10px;
         text-align:center;
         font-size: large;
+        width: 25vw;
     }
 
     /* Working holiday visa section */
@@ -97,6 +98,18 @@ h1 {
         justify-content: center;
         margin-top:20px;
         padding-left: 10px;
+    }
+
+    #calculate {
+        height: 8vh;
+        width: 50vw;
+        margin-left: 25vw;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        color:#f58321;
+        background-color: white;
+        font-size: 3vh;
+        border: black solid 3px;
     }
 
     /* Pay breakdown section */
@@ -400,7 +413,6 @@ h1 {
         background-color: white;
         font-size: 3vh;
         border: black solid 3px;
-    
     }
 
     /* pay breakdown section */
