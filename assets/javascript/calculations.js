@@ -4,11 +4,8 @@
 
 // All functions will be nested inside this larger function
 
-
-
 function calculateAll() {
 
-        console.log("test this thang");
         let monday = document.getElementById("monday-hours");
         let tuesday = document.getElementById("tuesday-hours");
         let wednesday = document.getElementById("wednesday-hours");
@@ -19,10 +16,9 @@ function calculateAll() {
         
     
         function mondayPay() {
-        console.log("run this town");
         let result = monday.value * weekday_pay;
         return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
-    }
+        }
         
         function tuesdayPay() {
             let result = tuesday.value * weekday_pay;
@@ -62,24 +58,28 @@ function calculateAll() {
         saturdayPay();
         sundayPay();
 
-}
-        // // function to calculate total wage
-        // let monday_pay = document.getElementById("mon-pay");
-        // let tuesday_pay = document.getElementById("tue-pay");
-        // let wednesday_pay = document.getElementById("wed-pay");
-        // let thursday_pay = document.getElementById("thur-pay");
-        // let friday_pay = document.getElementById("fri-pay");
-        // let weekend1_pay = document.getElementById("sat-pay");
-        // let weekend2_pay = document.getElementById("sun-pay");
+         // function to calculate total wage
+         let monday_pay = document.getElementById("mon-pay");
+         let tuesday_pay = document.getElementById("tue-pay");
+         let wednesday_pay = document.getElementById("wed-pay");
+         let thursday_pay = document.getElementById("thur-pay");
+         let friday_pay = document.getElementById("fri-pay");
+         let weekend1_pay = document.getElementById("sat-pay");
+         let weekend2_pay = document.getElementById("sun-pay");
+ 
+         // function to calculate total pay
+         function totalPay() {
+             let result = parseFloat(monday_pay.innerHTML) + parseFloat(tuesday_pay.innerHTML) + 
+             parseFloat(wednesday_pay.innerHTML) + parseFloat(thursday_pay.innerHTML) + 
+             parseFloat(friday_pay.innerHTML) + parseFloat(weekend1_pay.innerHTML) + 
+             parseFloat(weekend2_pay.innerHTML);
+             return document.getElementById("twp").innerText = result;
+         }
 
-        // // function to calculate total pay
-        // function totalPay() {
-        //     let result = parseFloat(monday_pay.innerHTML) + parseFloat(tuesday_pay.innerHTML) + 
-        //     parseFloat(wednesday_pay.innerHTML) + parseFloat(thursday_pay.innerHTML) + 
-        //     parseFloat(friday_pay.innerHTML) + parseFloat(weekend1_pay.innerHTML) + 
-        //     parseFloat(weekend2_pay.innerHTML);
-        //     return document.getElementById("twp").innerText = result;
-        // }
+        totalPay();
+
+}
+       
 
         // //function to calculate tax due per week
         // function taxDue() {
