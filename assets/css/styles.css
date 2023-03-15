@@ -163,7 +163,7 @@ h1 {
 
 /* Formatting for tablet devices */
 
-@media only screen and (min-width:484px) and (max-width: 768px) {
+@media only screen and (min-width:484px) and (max-width: 999px) {
     /* Header and title section */
     #heading{
         display: flex;
@@ -311,7 +311,7 @@ h1 {
 }
 
 /* Formatting for desktop */
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:1000px) {
     #heading{
         display: flex;
         flex-direction: row;
@@ -493,6 +493,8 @@ h1 {
 }
 
 @media only screen and (min-width:769px) and (max-width: 1024px) {
+
+
     
 
 }

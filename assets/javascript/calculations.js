@@ -11,6 +11,8 @@ let sunday = document.getElementById("sunday-hours");
 
 // All functions will be nested inside this larger function
 
+
+
 function calculateAll() {
     
         function mondayPay() {
