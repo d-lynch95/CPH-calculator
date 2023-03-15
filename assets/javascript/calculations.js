@@ -77,108 +77,113 @@ function calculateAll() {
          }
 
         totalPay();
+        
+        //function to calculate tax due per week
+        function taxDue() {
+            let amt = document.getElementById("twp").innerHTML;
+            let tax = amt * 0.15;
+            return document.getElementById("week-tax").innerHTML = tax.toFixed(2) ;
+        }
 
+        taxDue();
+
+        // function to look at hours worked during the week 
+        function HoursWorked() {
+            let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
+            + parseFloat(thursday.value) + parseFloat(friday.value) + parseFloat(saturday.value) 
+            + parseFloat(sunday.value);
+            return document.getElementById("t-h-w").innerHTML = result;
+        }
+
+        HoursWorked();
+
+        // function to calculate total commission earned
+        let totalCommission = document.getElementById("number");
+
+        function totalCommissionEarned() {
+            let result = totalCommission.value;
+            return document.getElementById("t-c-e").innerText = result;
+        }
+
+        totalCommissionEarned();
+
+        // function to calculate the amount of commission earned per hour
+        let totalHours = document.getElementById("t-h-w");
+
+        //Use a delay to allow the other functions to calculate first and take the values from the completed function.
+        // function to calculate commission earned per hour
+
+        setTimeout(function cphCalculate() {
+            let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
+            return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
+        }, 300);
+
+
+     
+        // formula to calculate commission per hour using different bands and pay scales
+
+        let cphtest = document.getElementById("commissionPerHour")
+
+        setTimeout( switch (cphtest){
+            case 0 :
+                cphtest > 500;
+                document.getElementById("payBonus").innerHTML = cph550;
+                break;
+
+            case 1 : 
+                cphtest > 450;
+                document.getElementById("payBonus").innerHTML = cph450;
+                break;
+
+            case 2 : 
+                cphtest > 400;
+                document.getElementById("payBonus").innerHTML = cph400;
+                break;
+
+            case 3:
+                cphtest > 350;
+                document.getElementById("payBonus").innerHTML = cph350;
+                break;
+
+            case 4: 
+                cphtest > 300;
+                document.getElementById("payBonus").innerHTML = cph300;
+                break;
+
+            case 5:
+                cphtest > 250;
+                document.getElementById("payBonus").innerHTML = cph250;
+                break;
+
+            case 6: 
+                cphtest > 200;
+                document.getElementById("payBonus").innerHTML = cph200;
+                break;
+
+            case 7:
+                cphtest > 250;
+                document.getElementById("payBonus").innerHTML = cph250;
+                break;
+
+            case 8:
+                cphtest > 200;
+                document.getElementById("payBonus").innerHTML = cph200;
+                break;
+
+            case 9:
+                cphtest > 150;
+                document.getElementById("payBonus").innerHTML = cph150;
+                break;
+
+            case 10:
+                cphtest > 100;
+                document.getElementById("payBonus").innerHTML = cph100;
+                break;
+
+            default:
+                document.getElementById("payBonus").innerHTML = parseFloat(0);
+        }, 500);
 }
-       
-
-        // //function to calculate tax due per week
-        // function taxDue() {
-        //         let amt = document.getElementById("twp").innerHTML;
-        //         let tax = amt * 0.15;
-        //         return document.getElementById("week-tax").innerHTML = tax.toFixed(2) ;
-        // }
-
-        // // function to look at hours worked during the week 
-        // function HoursWorked() {
-        //     let result = parseFloat(monday.value) + parseFloat(tuesday.value) + parseFloat(wednesday.value) 
-        //     + parseFloat(thursday.value) + parseFloat(friday.value) + parseFloat(saturday.value) 
-        //     + parseFloat(sunday.value);
-        //     return document.getElementById("t-h-w").innerHTML = result;
-        // }
-
-
-        // // function to calculate total commission earned
-        // let totalCommission = document.getElementById("number");
-
-        // function totalCommissionEarned() {
-        //     let result = totalCommission.value;
-        //     return document.getElementById("t-c-e").innerText = result;
-        // }
-
-        // // function to calculate the amount of commission earned per hour
-        // let totalHours = document.getElementById("t-h-w");
-
-
-        // // function to calculate commission earned per hour
-        // function cphCalculate() {
-        //     let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
-        //     return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
-        // }
-
-        // // formula to calculate commission per hour using different bands and pay scales
-
-        // let cphtest = document.getElementById("commissionPerHour")
-
-        // switch (cphtest){
-
-        //     case 0 :
-        //         cphtest > 500;
-        //         document.getElementById("payBonus").innerHTML = cph550;
-        //         break;
-
-        //     case 1 : 
-        //         cphtest > 450;
-        //         document.getElementById("payBonus").innerHTML = cph450;
-        //         break;
-
-        //     case 2 : 
-        //         cphtest > 400;
-        //         document.getElementById("payBonus").innerHTML = cph400;
-        //         break;
-
-        //     case 3:
-        //         cphtest > 350;
-        //         document.getElementById("payBonus").innerHTML = cph350;
-        //         break;
-
-        //     case 4: 
-        //         cphtest > 300;
-        //         document.getElementById("payBonus").innerHTML = cph300;
-        //         break;
-
-        //     case 5:
-        //         cphtest > 250;
-        //         document.getElementById("payBonus").innerHTML = cph250;
-        //         break;
-
-        //     case 6: 
-        //         cphtest > 200;
-        //         document.getElementById("payBonus").innerHTML = cph200;
-        //         break;
-
-        //     case 7:
-        //         cphtest > 250;
-        //         document.getElementById("payBonus").innerHTML = cph250;
-        //         break;
-
-        //     case 8:
-        //         cphtest > 200;
-        //         document.getElementById("payBonus").innerHTML = cph200;
-        //         break;
-
-        //     case 9:
-        //         cphtest > 150;
-        //         document.getElementById("payBonus").innerHTML = cph150;
-        //         break;
-
-        //     case 10:
-        //         cphtest > 100;
-        //         document.getElementById("payBonus").innerHTML = cph100;
-        //         break;
-
-        //     default:
-        //         document.getElementById("payBonus").innerHTML = parseFloat(0);
-        // }
 
 let buttonClick = document.getElementById("button");
 buttonClick.addEventListener("click", calculateAll);
