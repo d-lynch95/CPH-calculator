@@ -120,7 +120,7 @@ function calculateAll() {
      
         // formula to calculate commission per hour using different bands and pay scales
 
-       let cphtest = document.getElementById("commissionPerHour").innerHTML; 
+       let cphtest = document.getElementById("commissionPerHour").innerText; 
 
         switch (cphtest) {
                 case (cphtest >= 500):
