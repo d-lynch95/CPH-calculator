@@ -122,7 +122,7 @@ function calculateAll() {
 
         // setTimeout(() => {  let cphtest = document.getElementById("commissionPerHour").innerHTML; 
 
-        switch (cphtest) {
+        // switch (cphtest) {
             //     case (value >= 500):
             //         document.getElementById("payBonus").innerHTML = cph550.value;
             //         break;
