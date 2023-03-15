@@ -70,7 +70,6 @@ h1 {
     /* Commission section */
     #comms{
         display:flex;
-        direction: row;
     }
 
     #comms {
@@ -94,7 +93,6 @@ h1 {
     /* Working holiday visa section */
     #visa-tax {
         display: flex;
-        direction: row;
         justify-content: center;
         margin-top:20px;
         padding-left: 10px;
