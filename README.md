@@ -276,6 +276,16 @@ The contactus.html page required more indepth manual testing as we had several f
 
 The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-calculator/
 
+- Clone the Repository Code Locally
+  - Navigate to the GitHub Repository you want to clone to use locally:
+
+  - Click on the code drop down button
+  - Click on HTTPS
+  - Copy the repository link to the clipboard
+  - Open your IDE of choice (git must be installed for the next steps)
+  - Type git clone copied-git-url into the IDE terminal
+  - The project will now of been cloned on your local machine for use.
+
 ## Credits 
 
 ### Content 
