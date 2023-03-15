@@ -9,6 +9,14 @@ h1 {
     font-family: 'Lilita One', cursive;
 }
 
+/* formatting for logo at breakpoints */
+
+@media only screen and (min-width:490px) and (max-width: 877px) {
+    #title {
+        font-size: 3vh;
+    }
+}
+
 /* Formatting for mobile devices*/
 @media only screen and (max-width: 483px) {
     /* Header and title section */
@@ -507,10 +515,3 @@ h1 {
     padding-left: 40vw;
 }
 
-/* formatting for logo at breakpoints */
-
-@media only screen and (min-width:490px) and (max-width: 877px) {
-    #title {
-        font-size: 3vh;
-    }
-}
