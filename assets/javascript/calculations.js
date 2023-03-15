@@ -120,106 +120,40 @@ function calculateAll() {
      
         // formula to calculate commission per hour using different bands and pay scales
 
-        // setTimeout(() => {  let cphtest = document.getElementById("commissionPerHour").innerHTML; 
+       let cphtest = document.getElementById("commissionPerHour").innerHTML; 
 
-        // switch (cphtest) {
-            //     case (value >= 500):
-            //         document.getElementById("payBonus").innerHTML = cph550.value;
-            //         break;
-            //     case (value < 499)&&(value >= 450):
-            //         document.getElementById("payBonus").innerHTML = cph450.value
-            //         break;
-            //     case (value < 449)&&(value >= 400):
-            //         document.getElementById("payBonus").innerHTML = cph400.value
-            //         break;
-            //     case (value < 399)&&(value >= 350):
-            //         document.getElementById("payBonus").innerHTML = cph350.value
-            //         break;
-            //     case (value < 349)&&(value >= 300):
-            //         document.getElementById("payBonus").innerHTML = cph300.value
-            //         break;
-            //     case (value < 299)&&(value >= 250):
-            //         document.getElementById("payBonus").innerHTML = cph250.value
-            //         break;
-            //     case (value < 249)&&(value >= 200):
-            //         document.getElementById("payBonus").innerHTML = cph200.value
-            //         break;
-            //     case (value < 199)&&(value >= 150):
-            //         document.getElementById("payBonus").innerHTML = cph150.value
-            //         break;
-            //     case (value < 149)&&(value >= 150):
-            //         document.getElementById("payBonus").innerHTML = cph100.value
-            //         break;
-            //     default :
-            //         document.getElementById("payBonus").innerHTML = 0;
-            //     }
-
-
-
-
-
-
-            
-
-        // switch (cphtest){
-        //     case cphtest > 500 :
-        //         document.getElementById("payBonus").innerHTML = cph550;
-        //         break;
-
-            // case 1 : 
-            //     cphtest > 450;
-            //     document.getElementById("payBonus").innerHTML = cph450;
-            //     break;
-
-            // case 2 : 
-            //     cphtest > 400;
-            //     document.getElementById("payBonus").innerHTML = cph400;
-            //     break;
-
-            // case 3:
-            //     cphtest > 350;
-            //     document.getElementById("payBonus").innerHTML = cph350;
-            //     break;
-
-            // case 4: 
-            //     cphtest > 300;
-            //     document.getElementById("payBonus").innerHTML = cph300;
-            //     break;
-
-            // case 5:
-            //     cphtest > 250;
-            //     document.getElementById("payBonus").innerHTML = cph250;
-            //     break;
-
-            // case 6: 
-            //     cphtest > 200;
-            //     document.getElementById("payBonus").innerHTML = cph200;
-            //     break;
-
-            // case 7:
-            //     cphtest > 250;
-            //     document.getElementById("payBonus").innerHTML = cph250;
-            //     break;
-
-            // case 8:
-            //     cphtest > 200;
-            //     document.getElementById("payBonus").innerHTML = cph200;
-            //     break;
-
-            // case 9:
-            //     cphtest > 150;
-            //     document.getElementById("payBonus").innerHTML = cph150;
-            //     break;
-
-            // case 10:
-            //     cphtest > 100;
-            //     document.getElementById("payBonus").innerHTML = cph100;
-            //     break;
-
-    //         default:
-    //             document.getElementById("payBonus").innerHTML = parseFloat(0);
-    //     };
-    // }
+        switch (cphtest) {
+                case (cphtest >= 500):
+                    document.getElementById("payBonus").innerText = cph550.value;
+                    break;
+                case (cphtest < 499)&&(cphtest >= 450):
+                    document.getElementById("payBonus").innerText = cph450.value
+                    break;
+                case (cphtest < 449)&&(cphtest >= 400):
+                    document.getElementById("payBonus").innerText = cph400.value
+                    break;
+                case (cphtest < 399)&&(cphtest >= 350):
+                    document.getElementById("payBonus").innerText = cph350.value
+                    break;
+                case (cphtest < 349)&&(cphtest >= 300):
+                    document.getElementById("payBonus").innerText = cph300.value
+                    break;
+                case (cphtest < 299)&&(cphtest >= 250):
+                    document.getElementById("payBonus").innerText = cph250.value
+                    break;
+                case (cphtest < 249)&&(cphtest >= 200):
+                    document.getElementById("payBonus").innerText = cph200.value
+                    break;
+                case (cphtest < 199)&&(cphtest >= 150):
+                    document.getElementById("payBonus").innerText = cph150.value
+                    break;
+                case (cphtest < 149)&&(cphtest >= 100):
+                    document.getElementById("payBonus").innerText = cph100.value
+                    break;
+                default :
+                    document.getElementById("payBonus").innerText = 0;
+        }
+    
     // ,1000);
 
 

@@ -15,7 +15,6 @@ The CPH calculator is an interactive online tool to help employees of HappyTrave
   - understand how to use the website using simple instructions
   - be able to view the website and read all information on all screen sizes
   - easily input my information and view my pay 
-  - be able to reach out to the company for more information
 
 ### Business owner goals
 - As the website business owner I want to 
