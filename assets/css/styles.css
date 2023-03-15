@@ -361,9 +361,16 @@ h1 {
         font-size: 3vh;
     }
 
+    #desktop-container{
+        display:flex;
+        flex-direction: row;
+    }
+
     #hours-container {
         display:flex;
         flex-direction: column;
+        text-align: center;
+        width:30vw;
     }
 
     .days{
