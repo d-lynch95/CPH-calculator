@@ -70,7 +70,7 @@ This website has a simple single page design. This format was easiest and allows
 
 ### Wireframe
 
-The wireframes were developed in a mobile first environment. The original wireframe design has had some minor alterations during production but has mostly remained true to the design.
+The wireframes were developed in a mobile first environment. The original wireframe design has had some minor alterations during production but has mostly remained true to the design. 
 
 ##### Main Page
 
