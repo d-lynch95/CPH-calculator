@@ -111,22 +111,19 @@ function calculateAll() {
         let totalHours = document.getElementById("t-h-w");
 
         //Use a delay to allow the other functions to calculate first and take the values from the completed function.
-        // function to calculate commission earned per hour
+        // This is a function to calculate commission earned per hour
 
         setTimeout(function cphCalculate() {
             let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
             return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
-        }, 300);
-
-
+        }, 40);
      
         // formula to calculate commission per hour using different bands and pay scales
 
-        let cphtest = document.getElementById("commissionPerHour")
+        setTimeout(() => {  let cphtest = document.getElementById("commissionPerHour").innerHTML; 
 
-        setTimeout( switch (cphtest){
-            case 0 :
-                cphtest > 500;
+        switch (cphtest){
+            case cphtest > 500 :
                 document.getElementById("payBonus").innerHTML = cph550;
                 break;
 
@@ -182,7 +179,9 @@ function calculateAll() {
 
             default:
                 document.getElementById("payBonus").innerHTML = parseFloat(0);
-        }, 500);
+        };
+    }
+    , 50);
 }
 
 let buttonClick = document.getElementById("button");
