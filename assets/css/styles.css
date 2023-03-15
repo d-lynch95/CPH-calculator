@@ -100,7 +100,7 @@ h1 {
         padding-left: 10px;
     }
 
-    #calculate {
+    #button{
         height: 8vh;
         width: 50vw;
         margin-left: 25vw;
@@ -252,7 +252,7 @@ h1 {
         margin-left: 5vw;
     }
 
-    #calculate {
+    #button {
         height: 8vh;
         width: 50vw;
         margin-left: 25vw;
@@ -402,7 +402,7 @@ h1 {
         font-size: large;
     }
 
-    #calculate {
+    #button {
         height: 8vh;
         width: 40vw;
         margin-left: 25vw;
@@ -429,7 +429,7 @@ h1 {
         margin-top: 2vh;
     }
 
-    #calculate {
+    #button {
         height: 10vh;
         width: 25vw;
         margin-left: 15vw;
