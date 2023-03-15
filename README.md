@@ -188,8 +188,8 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio-1-GreatOceanRoadsters%2Findex.html)
-  ![Index page](media/validator/index-validator.png)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio2_CPH-calculator%2F)
+  ![Index page](assets/images/accessibility/html%20checker.png)
 
   
   -
