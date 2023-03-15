@@ -182,7 +182,26 @@ function calculateAll() {
     //     };
     // }
     // ,1000);
+
+
 }
+
+
+// function to calculate the total bonus
+
+// function totalWeeklyBonus() {
+//     result = totalHours.value * payBonus.value;
+//     return document.getElementById("monetaryBonus").innerText = result.toFixed(2);
+// }
+
+let grossEarnings = document.getElementById("twp");  //.innerHTML ?
+let taxToBePaid = document.getElementById("week-tax");
+let cashBonus = document.getElementById("monetaryBonus");
+
+function TotalPayThisWeek() {
+    result = ((grossEarnings.value - taxToBePaid.value) + cashBonus.value)
+}
+
 
 let buttonClick = document.getElementById("button");
 buttonClick.addEventListener("click", calculateAll);
