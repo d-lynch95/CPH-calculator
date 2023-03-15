@@ -4,7 +4,7 @@ The CPH calculator is an interactive online tool to help employees of HappyTrave
 
 
 [Live Website](https://d-lynch95.github.io/Portfolio2_CPH-calculator/)
-![AmiResponsive Mockup]()
+![AmiResponsive Mockup](assets/images/features/cph-responsive.png)
 
 ## User Goals and Stories
 
@@ -158,8 +158,6 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
 ### Features Left to Implement
 
-- I would like to add a hamburger menu for mobile and tablet devices for this site when I have the requisite knowledge.
-
 - I would like to format the server in the future to accept form submissions and allow the site owner to view users form submissions.
 
 ## Testing 
@@ -167,28 +165,11 @@ The wireframes were developed in a mobile first environment. The original wirefr
 ### BUGS
  - I encountered several bugs while creating this project.
 
- - There were issues with the icons and social media links located in the footer. I struggled to correctly format links to the external sites while creating links in the icons.
-  This was corrected by adding "HTTPS://" to the front of the href aswell aswell as adding the target="_blank" attribute.
-  I was also having issues with the icons duplicating themselves with one icon having an active link and the second icon not having a link. This was due to an issue with missing closing tags on our <i> element and was quickly corrected after some testing.
+- I encountered a lot of difficulty when nesting the formulas within the calculateAll() formula. I did not realise that the child functions would have to be called seperately within the parent function after they had been declared.
 
- - There was an issue when creating the hero image for the landing page. When adding the hero image the nav bar would disappear. This issue was temporarily fixed by removing the 'position:fixed;' attribute. We still wanted the Nav bar to be fixed so we corrected this by setting the z-index to 1.
+- I faced issues with timing of the funcions. The functions were all executing at the same time and were creating issues. This was fixed using a selfTimeout code section.
 
- - The attractions section on the index page caused a lot of issues as this was the first time working with flexbox. The [Academind](https://www.youtube.com/watch?v=RSIclWvNTdQ) youtube tutorial on CSS V Flexbox was very helpful to resolve these issues.
 
- - When uploading the photos for the attractions page I spent a lot of time struggling with the format of one image. I could not figure out why the css was not working on this one image but had formatted all of the other images correctly. In the end I gave up and opted to change the image. When I changed the image to one of a similar theme the image responded to the css immediately. In hindsight I think the issue may be that the original image was in portrait mode and all of the other images were in landscape.
-
- - While creating the hamburger menu I struggled a lot with a certain bug. I was able to format the menu but could not manage to get the menu to open. I struggled with this for a long time until an online blog I was reading suggested moving the script tag to after where the element is declared. I moved the script tag to the bottom of the html page and the hamburger menu began to work. 
-
- - The hamburger menu was creating an issue that when the site is viewed on mobile or tablet sized screens (< 768px) the hamburger menu appears at the left side of the screen as an opaque rectangular box. When the hamburger menu is clicked this menu slides out from the left to fill the screen. As this functionality was borrowed from an online tutorial I have struggled to fix this bug as I do not have the required Javascript knowledge yet. Instead I opted to remove the hamburger menu in favour of a different style of menu for mobile and tablet devices.
-
- - I tried to create a pair of buttons on the index page with class to action of Find Out More and Contact Us. I nested an anchor tag within the button but this did not pass html validation. I searched on [stack overflow](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) and found a solution. In the end I opted to keep the a tag and style it with CSS to resemble a button.
-
-  - Once the site was deployed I had issues with viewing the hero images on each page. This was due to the use of absolute file paths. Once we changed them to relative file paths the images loaded without issues.
-
-  - There was an issue with the confirmation.html page. This page was supposed to be the destination for form submission. After receiving help from Sean Young on slack I was told that we do not yet have the requisite knowledge to format the server to accept form submissions. I have added a submission confirmation page but do not have the server formatted to accept form submissions.
-  
-  - The footer has underlines in the spaces between the social media icons. User inc21 on slack pointed out that these could be removed by adding a text-decoration:none to the css. This removed the issues with the underline.
-  
 ### User Testing
 
 The site was tested on chrome, safari and opera browsers on desktop without any issues. The site was tested on desktop, tablet and mobile using chrome developer tools. The actual tablet testing was done on an ipad. The mobile testing was done on an iphone 12 using the safari browser and also tested on android devices OnePlus 7 and OnePlus Nord CE on chrome browsers. The site was also tested on a samsung phone using the opera browser. None of the tablet or mobile devices presented any issues.
@@ -199,8 +180,8 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 - Home page
 
 
-![Index Lighthouse](media/accesable/Index_lighthouse.webp)
-![Index Wave](media/accesable/index-wave_.png)
+![Index Lighthouse]()
+![Index Wave]()
 
 
 

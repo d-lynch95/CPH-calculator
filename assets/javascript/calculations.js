@@ -122,6 +122,45 @@ function calculateAll() {
 
         // setTimeout(() => {  let cphtest = document.getElementById("commissionPerHour").innerHTML; 
 
+        switch (cphtest) {
+            //     case (value >= 500):
+            //         document.getElementById("payBonus").innerHTML = cph550.value;
+            //         break;
+            //     case (value < 499)&&(value >= 450):
+            //         document.getElementById("payBonus").innerHTML = cph450.value
+            //         break;
+            //     case (value < 449)&&(value >= 400):
+            //         document.getElementById("payBonus").innerHTML = cph400.value
+            //         break;
+            //     case (value < 399)&&(value >= 350):
+            //         document.getElementById("payBonus").innerHTML = cph350.value
+            //         break;
+            //     case (value < 349)&&(value >= 300):
+            //         document.getElementById("payBonus").innerHTML = cph300.value
+            //         break;
+            //     case (value < 299)&&(value >= 250):
+            //         document.getElementById("payBonus").innerHTML = cph250.value
+            //         break;
+            //     case (value < 249)&&(value >= 200):
+            //         document.getElementById("payBonus").innerHTML = cph200.value
+            //         break;
+            //     case (value < 199)&&(value >= 150):
+            //         document.getElementById("payBonus").innerHTML = cph150.value
+            //         break;
+            //     case (value < 149)&&(value >= 150):
+            //         document.getElementById("payBonus").innerHTML = cph100.value
+            //         break;
+            //     default :
+            //         document.getElementById("payBonus").innerHTML = 0;
+            //     }
+
+
+
+
+
+
+            
+
         // switch (cphtest){
         //     case cphtest > 500 :
         //         document.getElementById("payBonus").innerHTML = cph550;
