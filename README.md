@@ -180,7 +180,7 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 
 
 ![Index Lighthouse](assets/images/accessibility/cph-lighthouse.png)
-![Index Wave](assets/images/accessibility/wave-cph.png)
+![Index Wave](assets/images/accessibility/wave-errorcheck.png)
 
 
 
