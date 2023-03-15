@@ -1,30 +1,34 @@
 //function to calculate daily pay by inputting hours worked and
 // multiply them by different daily rates
 
-let monday = document.getElementById("monday-hours");
-let tuesday = document.getElementById("tuesday-hours");
-let wednesday = document.getElementById("wednesday-hours");
-let thursday = document.getElementById("thursday-hours");
-let friday = document.getElementById("friday-hours");
-let saturday = document.getElementById("saturday-hours");
-let sunday = document.getElementById("sunday-hours");
 
 // All functions will be nested inside this larger function
 
 
 
 function calculateAll() {
+
+        console.log("test this thang");
+        let monday = document.getElementById("monday-hours");
+        let tuesday = document.getElementById("tuesday-hours");
+        let wednesday = document.getElementById("wednesday-hours");
+        let thursday = document.getElementById("thursday-hours");
+        let friday = document.getElementById("friday-hours");
+        let saturday = document.getElementById("saturday-hours");
+        let sunday = document.getElementById("sunday-hours");
+        
     
         function mondayPay() {
-            let result = monday.value * weekday_pay;
-            return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
-        }
+        console.log("run this town");
+        let result = monday.value * weekday_pay;
+        return document.getElementById("mon-pay").innerHTML = result.toFixed(2);
+    }
         
         function tuesdayPay() {
             let result = tuesday.value * weekday_pay;
             return document.getElementById("tue-pay").innerHTML = result.toFixed(2);
         }
-        
+
         function wednesdayPay() {
             let result = wednesday.value * weekday_pay;
             return document.getElementById("wed-pay").innerHTML = result.toFixed(2);
@@ -49,6 +53,15 @@ function calculateAll() {
             let result = sunday.value * sunday_pay;
             return document.getElementById("sun-pay").innerHTML = result.toFixed(2);
         }
+
+        mondayPay();
+        tuesdayPay();
+        wednesdayPay();
+        thursdayPay();
+        fridayPay();
+        saturdayPay();
+        sundayPay();
+
 }
         // // function to calculate total wage
         // let monday_pay = document.getElementById("mon-pay");
@@ -167,6 +180,5 @@ function calculateAll() {
         //         document.getElementById("payBonus").innerHTML = parseFloat(0);
         // }
 
-
-let clickMe = document.getElementById("calculate");
-clickMe.addEventListener("click", console.log("button clicked") calculateAll());
+let buttonClick = document.getElementById("button");
+buttonClick.addEventListener("click", calculateAll);
