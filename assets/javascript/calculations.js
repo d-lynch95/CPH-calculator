@@ -116,38 +116,39 @@ function calculateAll() {
         setTimeout(function cphCalculate() {
             let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
             return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
-        }, 40);
+        }, 100);
      
         // formula to calculate commission per hour using different bands and pay scales
 
-       let cphtest = document.getElementById("commissionPerHour").innerText; 
+        let cphtest = document.getElementById("commissionPerHour").innerHTML
+                    console.log("helloworld"); 
 
         switch (cphtest) {
-                case (cphtest >= 500):
+                case cphtest >= 500:
                     document.getElementById("payBonus").innerText = cph550.value;
                     break;
-                case (cphtest < 499)&&(cphtest >= 450):
+                case cphtest < 499 && cphtest >= 450:
                     document.getElementById("payBonus").innerText = cph450.value
                     break;
-                case (cphtest < 449)&&(cphtest >= 400):
+                case cphtest < 449 && cphtest >= 400:
                     document.getElementById("payBonus").innerText = cph400.value
                     break;
-                case (cphtest < 399)&&(cphtest >= 350):
+                case cphtest < 399 && cphtest >= 350:
                     document.getElementById("payBonus").innerText = cph350.value
                     break;
-                case (cphtest < 349)&&(cphtest >= 300):
+                case cphtest < 349 && cphtest >= 300:
                     document.getElementById("payBonus").innerText = cph300.value
                     break;
-                case (cphtest < 299)&&(cphtest >= 250):
+                case cphtest < 299 && cphtest >= 250:
                     document.getElementById("payBonus").innerText = cph250.value
                     break;
-                case (cphtest < 249)&&(cphtest >= 200):
+                case cphtest < 249 && cphtest >= 200:
                     document.getElementById("payBonus").innerText = cph200.value
                     break;
-                case (cphtest < 199)&&(cphtest >= 150):
+                case cphtest < 199 && cphtest >= 150:
                     document.getElementById("payBonus").innerText = cph150.value
                     break;
-                case (cphtest < 149)&&(cphtest >= 100):
+                case cphtest < 149 && cphtest >= 100:
                     document.getElementById("payBonus").innerText = cph100.value
                     break;
                 default :
