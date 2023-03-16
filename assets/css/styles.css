@@ -9,6 +9,13 @@ h1 {
     font-family: 'Lilita One', cursive;
 }
 
+.day1 {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+
 /* Formatting for mobile devices*/
 @media only screen and (max-width: 483px) {
     /* Header and title section */
