@@ -203,13 +203,19 @@ h1 {
         font-size: 4vh;
     }
 
-    /* Instrcutions section */
+    /* Instructions section */
     #instruction-box{
         font-size:2.5vh;
         margin-left:2vw;
     }
 
     /* Input hours section */
+
+    #table {
+        padding-left: 25vw;
+        padding-bottom: 10vh;
+    }
+
     #hours-div {
         display:flex;
         flex-direction: row;
@@ -261,12 +267,12 @@ h1 {
         display:flex;
         flex-direction: row;
         font-size: 3vh;
-        margin-left: 10vw;
+        margin-left: 20vw;
     }
 
     #tickbox{
-        height: auto;
-        width: 8vw;
+        height: 8vh;
+        width: 10vw;
         margin-left: 5vw;
     }
 
