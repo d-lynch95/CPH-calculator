@@ -169,11 +169,8 @@ function calculateAll() {
             let taxToBePaid = document.getElementById("week-tax").innerHTML;
             let cashBonus = document.getElementById("monetaryBonus").innerHTML;
 
-
-            console.log("Is this thing on?");
-
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
-            return document.getElementById("testPay").innerText = allPays;
+            return document.getElementById("totalPayFinal").innerText = allPays
         }, 125);
     }
 

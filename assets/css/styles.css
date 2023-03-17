@@ -125,6 +125,12 @@ h1 {
     }
 
     /* Pay breakdown section */
+
+    #yourpay {
+        padding-left: 3vw;
+    }
+
+
     #pay {
         display: flex;
         flex-direction: column;
