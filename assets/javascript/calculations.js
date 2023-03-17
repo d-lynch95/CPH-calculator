@@ -180,7 +180,7 @@ function calculateAll() {
 
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
             console.log(allPays);
-            document.getElementById("totalPayFinal").innerText = allPays;
+            document.getElementById("totalPayFinal").innerText = allPays.toFixed(2);
         }, 350);
         
     }
