@@ -141,17 +141,8 @@ h1 {
         font-family: 'Golos Text', sans-serif;
     }
 
-    #breakdown{
-        font-size: small;
-    }
-
     #yourpay{
         margin-left:4vw;
-    }
-
-    #pay-break {
-        margin-left: 25vw;
-        margin-bottom: 5vh;
     }
 
     #payscale {
@@ -303,11 +294,6 @@ h1 {
     #yourpay{
         margin-left:20vw;
         font-size:4vh;
-    }
-
-    #pay-break {
-        margin-left: 25vw;
-        margin-bottom: 5vh;
     }
 
     #payscale {
@@ -486,11 +472,6 @@ h1 {
     #yourpay{
         margin-left:25vw;
         font-size:4vh;
-    }
-
-    #pay-break {
-        margin-bottom: 5vh;
-        padding-left: 10vw;
     }
 
     #payscale {

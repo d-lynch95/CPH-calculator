@@ -113,12 +113,14 @@ function calculateAll() {
         //Use a delay to allow the other functions to calculate first and take the values from the completed function.
         // This is a function to calculate commission earned per hour
 
-        setTimeout(function cphCalculate() {
+        setTimeout( function cphCalculate() {
             let division = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
             document.getElementById("commissionPerHour").innerText = parseInt(division);
             console.log(division);
             return 
-        }, 50);
+            }, 50);
+            
+
      
         // formula to calculate commission per hour using different bands and pay scales
 
@@ -155,7 +157,8 @@ function calculateAll() {
             else {
                 document.getElementById("payBonus").innerText = 0;
                 }
-            }, 110);
+        }, 110);
+        
 
         // function to calculate the total bonus
 
@@ -166,7 +169,8 @@ function calculateAll() {
             document.getElementById("monetaryBonus").innerText = paypay.toFixed(2);
             
             return
-        }, 130);
+            
+        }, 200);
 
         // function to calculate the total pay
         setTimeout( function totalPayThisWeek() {
@@ -177,9 +181,7 @@ function calculateAll() {
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
             console.log(allPays);
             document.getElementById("totalPayFinal").innerText = allPays;
-            
-            return
-        }, 150);
+        }, 350);
         
     }
 
