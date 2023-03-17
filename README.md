@@ -203,66 +203,32 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 
 #### Functional Testing 
 
-We tested the links in the navigation section of the header for all pages on multiple devices.
+We first tested the input box to see if the values were recognised and input correctly.
 
-| Navigation link  | Page to load  |
+| Input Box        |   PASS/FAIL   |
 | -----------      | -----------   |
-| Logo             | index.html    |
-| Home             | index.html    |
-| Itinerary        | itinerary.html|
-| Gallery          | gallery.html  |
-| Contact Us       | contact.html  |
+| Monday           |  PASS         |
+| Tuesday          |  PASS         |
+| Wednesday        |  PASS         |
+| Thursday         |  PASS         |
+| Friday.          | Pass          |
+| Saturday.        | Pass          |
+| Sunday.          | Pass          |
 
-All of these links worked as expected and lead to the correct pages.
+All of these input boxes worked as expected and accepted the values without any issues.
 
-We tested the two buttons on the index page. The "Find out more" button links to the itinerary.html page in a new tab. This worked without any issues.
-The Contact Us button takes us to contactus.html in a new tab. This did not present any issues.
+The commission made inout box was also tested and this did not present any issues.
 
-When the FAQ section questions are clicked the answer should appear beneath in a details and summary section. We tested this for all of the questions on multiple browsers on desktop, mobile and tablet. All of the questions present the answers when clicked as expected.
+The checkbox was also tested on multiple devices and this did not present any issues. At the moment the box is automatically checked as the majority of employees are on working holiday visas however as more local employees come aboard we will look to add functionality to account for tax residents and the tax brackets they fall into.
 
-We also tested the social media links at the bottom of the page and they all led to the respective social media sites.
+We tested the two buttons on the index page. The calculate now button calls the calculateAll function. This worked without any errors.
 
+On the 404 page we tested the clickable link in the text. This link on the 404 page then took us back to the homepage.
 
-On the itinerary page we tested the clickable links in the text. Each attraction when clicked leads to a wikipedia or website entry about the attraction. We tried this on multiple browsers and on mobile devices and the links opened without any issues.
+We ran a lot of tests on the different formulas. These tests are outlined in the below table.
 
-The itinerary page also contains underlined links that connect to the contactus.html page when clicked. These links all work as expected and open the link in the new tab.
+![Testing functions](assets/images/testingfunctions/functionTest.png)
 
-We tested the controls of the iframe youtube video on mobile, tablet and laptop. Users have the ability to start and stop the video as needed, increase or decrease volume and view in fullscreen.
-
-The contactus.html page required more indepth manual testing as we had several features that needed to be tested.
-
-- Contact form
-  - Expectation : User inputs all information correctly, form is submitted and takes you to the confirmation page.
-
-  - Reality : This worked as expected on mobile, tablet and desktop.
-
-  - Result: pass
-
-  - Expectation: When information is input but a correct email format is not provided this will be flagged and form will not be submitted.
-
-  - Reality: When an incorrect format is input a pop up will appear asking user to input a correct email address. This happened on all devices,
-
-  - Result: pass
-
-
-
-
-- Email us
-  - Expectation: When the user clicks the email address a seperate window will open to allow the user to compose an email.
-
-  - Reality: When tested on a macbook, a new 'mail' application will open with the email address autofilled allowing the user to email the company directly.
-    When clicked on an android device the gmail app will open with the company email address autofilled allowing for ease of use
-
-  - Result: pass
-
-- Phone Us
-  - Expectation: When the phone number is clicked the user will be able to phone the supplied number directly
-
-  - Reality: When the phone number is clicked on a mobile device the phone will autofill the number and allow you to dial. 
-    When the phone number is clicked on desktop the connected phone number on google chrome will pop up and give you the option to "Make a call from OnePlus".
-    When the phone number is clicked on while using safari the facetime app will open and allow you to call.
-
-  - Result : pass
 
 
 ### Unfixed Bugs

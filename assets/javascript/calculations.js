@@ -114,16 +114,17 @@ function calculateAll() {
         // This is a function to calculate commission earned per hour
 
         setTimeout(function cphCalculate() {
+            let totalCommission = document.getElementById("number");
+            let totalHours = document.getElementById("t-h-w");
             let division = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
             return document.getElementById("commissionPerHour").innerText = parseInt(division);
-        }, 70);
+        }, 50);
      
         // formula to calculate commission per hour using different bands and pay scales
 
         setTimeout( function cphTesting() {
             let cphtest = document.getElementById("commissionPerHour").innerHTML;
             
-
             if (cphtest >= 500) {
                 document.getElementById("payBonus").innerText = cph550;
             }
@@ -160,7 +161,8 @@ function calculateAll() {
 
         setTimeout( function totalWeeklyBonus() {
             let paypay = parseFloat(totalHours.innerText) * parseFloat(payBonus.innerText);
-            return document.getElementById("monetaryBonus").innerText = paypay.toFixed(2);
+            document.getElementById("monetaryBonus").innerText = paypay.toFixed(2);
+            return 
         }, 130);
 
         // function to calculate the total pay
@@ -170,8 +172,10 @@ function calculateAll() {
             let cashBonus = document.getElementById("monetaryBonus").innerHTML;
 
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
-            return document.getElementById("totalPayFinal").innerText = allPays;
+            document.getElementById("totalPayFinal").innerText = allPays;
+            return 
         }, 150);
+        
     }
 
 let buttonClick = document.getElementById("button");
