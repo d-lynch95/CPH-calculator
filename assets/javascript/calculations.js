@@ -74,7 +74,7 @@ function calculateAll() {
              parseFloat(friday_pay.innerHTML) + parseFloat(weekend1_pay.innerHTML) + 
              parseFloat(weekend2_pay.innerHTML);
              return document.getElementById("twp").innerText = result;
-         }
+        }
 
         totalPay();
         
@@ -114,14 +114,14 @@ function calculateAll() {
         // This is a function to calculate commission earned per hour
 
         setTimeout(function cphCalculate() {
-            let result = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
-            return document.getElementById("commissionPerHour").innerText = result.toFixed(0);
-        }, 50);
+            let division = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
+            return document.getElementById("commissionPerHour").innerText = parseInt(division);
+        }, 70);
      
         // formula to calculate commission per hour using different bands and pay scales
 
         setTimeout( function cphTesting() {
-            let cphtest = document.getElementById("commissionPerHour").innerHTML
+            let cphtest = document.getElementById("commissionPerHour").innerHTML;
             
 
             if (cphtest >= 500) {
@@ -154,14 +154,14 @@ function calculateAll() {
             else {
                 document.getElementById("payBonus").innerText = 0;
                 }
-            }, 100);
+            }, 110);
 
         // function to calculate the total bonus
 
         setTimeout( function totalWeeklyBonus() {
             let paypay = parseFloat(totalHours.innerText) * parseFloat(payBonus.innerText);
             return document.getElementById("monetaryBonus").innerText = paypay.toFixed(2);
-        }, 110);
+        }, 130);
 
         // function to calculate the total pay
         setTimeout( function totalPayThisWeek() {
@@ -170,13 +170,9 @@ function calculateAll() {
             let cashBonus = document.getElementById("monetaryBonus").innerHTML;
 
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
-            return document.getElementById("totalPayFinal").innerText = allPays
-        }, 125);
+            return document.getElementById("totalPayFinal").innerText = allPays;
+        }, 150);
     }
-
-
-
-
 
 let buttonClick = document.getElementById("button");
 buttonClick.addEventListener("click", calculateAll);

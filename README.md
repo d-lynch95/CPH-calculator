@@ -1,6 +1,6 @@
 # Portfolio2_CPH-calculator
 
-The CPH calculator is an interactive online tool to help employees of HappyTravels to calculate their Commission Per Hour. This tool will be used to save employees time when calculating the Commission bonus structures and also allow employees to double check that their paychecks are correct each week. This is a very simple tool that works by accepting user inputs of hours worked and total commission earned. The tool also factors in the 15% tax bracket for working holiday makers or the 35% tax bracket for local residents. The tool then outputs total pay, pay per hour, commisson per hour, commission bonus and tax paid to allow users to understand their precise pay breakdown.
+The CPH calculator is an interactive online tool to help employees of HappyTravels to calculate their Commission Per Hour. This tool will be used to save employees time when calculating the Commission bonus structures and also allow employees to double check that their paychecks are correct each week. This is a very simple tool that works by accepting user inputs of hours worked and total commission earned. The tool also factors in the 15% tax bracket for working holiday makers. The tool then outputs total pay, pay per hour, commisson per hour, commission bonus and tax paid to allow users to understand their precise pay breakdown.
 
 
 [Live Website](https://d-lynch95.github.io/Portfolio2_CPH-calculator/)
@@ -158,6 +158,8 @@ The wireframes were developed in a mobile first environment. The original wirefr
 ### Features Left to Implement
 
 - I would like to format the server in the future to accept form submissions and allow the site owner to view users form submissions.
+
+- I would like to implement a feature that will calculate the tax due for local residents as opposed to working holiday makers. This would require the assistance of subject matter experts to advise on the correct taxation brackets. I will look at adding this feature in a future release.
 
 ## Testing 
 
