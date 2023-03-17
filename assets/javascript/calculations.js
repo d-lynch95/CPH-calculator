@@ -120,42 +120,43 @@ function calculateAll() {
      
         // formula to calculate commission per hour using different bands and pay scales
 
-        let cphtest = document.getElementById("commissionPerHour").innerHTML
-            console.log("helloworld"); 
-            console.log(cphtest);
+        setTimeout( function cphTesting() {
+            let cphtest = document.getElementById("commissionPerHour").innerHTML
+            console.log("Is this thing on?");
 
-         switch (cphtest) {
-            case cphtest >= 500:
+            if (cphtest >= 500) {
                 document.getElementById("payBonus").innerText = cph550.value;
-                break;
-            case cphtest < 499 && cphtest >= 450:
+            }
+            else if  (cphtest < 499 && cphtest >= 450) {
                 document.getElementById("payBonus").innerText = cph450.value
-                break;
-            case cphtest < 449 && cphtest >= 400:
+            }
+            else if (cphtest < 449 && cphtest >= 400) {
                 document.getElementById("payBonus").innerText = cph400.value
-                break;
-            case cphtest < 399 && cphtest >= 350:
+            }
+            else if (cphtest < 399 && cphtest >= 350) {
                 document.getElementById("payBonus").innerText = cph350.value
-                break;
-            case cphtest < 349 && cphtest >= 300:
+            }
+            else if (cphtest < 349 && cphtest >= 300){
                 document.getElementById("payBonus").innerText = cph300.value
-                break;
-            case cphtest < 299 && cphtest >= 250:
+            }
+            else if (cphtest < 299 && cphtest >= 250) {
                 document.getElementById("payBonus").innerText = cph250.value
-                break;
-            case cphtest < 249 && cphtest >= 200:
+            }
+            else if (cphtest < 249 && cphtest >= 200) {
                 document.getElementById("payBonus").innerText = cph200.value
-                break;
-            case cphtest < 199 && cphtest >= 150:
+            }
+            else if (cphtest < 199 && cphtest >= 150) {
                 document.getElementById("payBonus").innerText = cph150.value
-                break;
-            case cphtest < 149 && cphtest >= 100:
+            }
+            else if (cphtest < 149 && cphtest >= 100) {
                 document.getElementById("payBonus").innerText = cph100.value
-                break;
-            default :
+            }
+            else {
                 document.getElementById("payBonus").innerText = 0;
-        }
-}
+                }
+            }, 500);
+        // cphTesting();
+    }
 
 
 // function to calculate the total bonus
