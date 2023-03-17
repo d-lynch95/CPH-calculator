@@ -170,6 +170,14 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
 - I faced issues with timing of the funcions. The functions were all executing at the same time and were creating issues. This was fixed using a selfTimeout code section.
 
+- There was a lot of bugs faced when outputting the results of formulas and I had to convert all of the data types using parseFloat() to ensure the data could be used for other calculations.
+
+- I had originally added a switch statement to calculate the commission per hour bonus however this would not run and was causing issues with other sections of my code. In the end I opted to remove this and instead use an if else statement.
+
+- I was receiving a lot of NaN errors when running the calculateAll function. This error was somehow being caused as the code was contained within details and summary tags. I removed the tags and the code started working correctly.
+
+- I faced a lot of contrast errors when checking accessibility. The original font was white on an orange background. Instead I opted for black text on the orange background.
+
 
 ### User Testing
 
@@ -280,5 +288,9 @@ The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-cal
 - Adding the Favicon to the website was done using help from [StackOverflow](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website)
 
 - The tutor support team from codeinstitute were extremely helpful in helping me to overcome bugs in my code.
+
+- I used countless stack overflow entries to help me to solve minor javascript related bugs.
+
+- I used the following projects as inspiration for my project. [Loan Calculator](https://github.com/Code-Institute-Submissions/loancalculator) , [Viscocity Calculator](https://github.com/Code-Institute-Submissions/Viscosity-Calculator), [Calorie Calculator](https://github.com/Code-Institute-Submissions/calorie-calculator-1)
 
  - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
