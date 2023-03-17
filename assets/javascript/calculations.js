@@ -159,8 +159,10 @@ function calculateAll() {
 
         setTimeout( function totalWeeklyBonus() {
             let paypay = parseFloat(totalHours.innerText) * parseFloat(payBonus.innerText);
+            console.log(paypay);
             document.getElementById("monetaryBonus").innerText = paypay.toFixed(2);
-            return 
+            
+            return
         }, 130);
 
         // function to calculate the total pay
@@ -170,8 +172,10 @@ function calculateAll() {
             let cashBonus = document.getElementById("monetaryBonus").innerHTML;
 
             let allPays = ((parseFloat(grossEarnings) - parseFloat(taxToBePaid)) + parseFloat(cashBonus));
+            console.log(allPays);
             document.getElementById("totalPayFinal").innerText = allPays;
-            return 
+            
+            return
         }, 150);
         
     }

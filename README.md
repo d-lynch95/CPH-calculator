@@ -153,7 +153,7 @@ The wireframes were developed in a mobile first environment. The original wirefr
 - __Error 404 Page__
     - This page will help the user navigate back to the home page if there is any typo or broken links in the site. This page will contain a clickable link to return home.
 
-![Error 404](media/error404.webp)
+![Error 404](assets/images/features/error404.png)
 
 ### Features Left to Implement
 
