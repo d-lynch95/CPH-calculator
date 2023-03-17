@@ -42,6 +42,12 @@ h1 {
         padding-left: 2vw;
     }
 
+    /* Table formatting */
+    #table {
+        padding-left: 16vw;
+        padding-bottom: 5vh;
+    }
+
     /* Instructions section */
     #instruction-box{
         padding-left: 3vw;
