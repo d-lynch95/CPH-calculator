@@ -114,8 +114,6 @@ function calculateAll() {
         // This is a function to calculate commission earned per hour
 
         setTimeout(function cphCalculate() {
-            let totalCommission = document.getElementById("number");
-            let totalHours = document.getElementById("t-h-w");
             let division = parseFloat(totalCommission.value) / parseFloat(totalHours.innerText);
             return document.getElementById("commissionPerHour").innerText = parseInt(division);
         }, 50);

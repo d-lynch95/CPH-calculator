@@ -279,4 +279,6 @@ The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-cal
 
 - Adding the Favicon to the website was done using help from [StackOverflow](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website)
 
+- The tutor support team from codeinstitute were extremely helpful in helping me to overcome bugs in my code.
+
  - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
